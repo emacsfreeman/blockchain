@@ -1,0 +1,273 @@
+#+TITLE: Apprends à coder ta blockchain avec Python
+#+AUTHOR: Laurent Garnier
+
+* Pour bien démarrer partie [1/2]
+** Intro
+** Qu'est-ce que Python ?
+** Pourquoi Python ?
+** Télécharger et installer Python
+** Ecris ton premier code Python
+** Qu'est-ce que la [[https://www.youtube.com/watch?v=bBC-nXj3Ng4][blockchain]] ?
+* Pour bien démarrer partie [2/2]
+** Grandes lignes du cours
+** Alternatives à Python
+** Comprendre les versions de Python
+** Comment tirer le meilleur parti de ce cours
+** Ressources utiles
+* Les bases de Python partie [1/4]
+** Introduction
+** Compréhension du [[https://en.wikipedia.org/wiki/Read%25E2%2580%2593eval%25E2%2580%2593print_loop][REPL]] et types data
+** Travailler avec les variables
+** Utilisation des opérateurs
+** Comprendre le comportement particulier lorsqu'on travaille avec les nombres
+** Travailler avec les chaînes de caractères
+* Les bases de Python partie [2/4]
+** Travailler avec les listes
+** Ajouter et supprimer des éléments d'une liste
+** Préparation de la blockchain
+** Un petit mot sur les éditeurs de codes
+** Comprendre les blocs de la blockchain
+** Accéder au dernier élément de la liste
+* Les bases de Python partie [3/4]
+** Ajouter des arguments aux fonctions
+** Comprendre le mot-clé "return"
+** Utilisation des arguments par défaut
+** Travailler avec des arguments mots-clés
+** Eviter la répétition d'exécution de code
+** Un petit mot sur la portée des variables
+* Les bases de Python partie [4/4]
+** Exploration de la documentation officielle
+** Ajout de commentaires et de documentations de fonctions 
+** Petit exo
+** Résumé
+** Ressources utiles
+* Travailler avec les boucles et les branchements [1/4]
+** Introduction
+** Les boucles
+** La boucle "for"
+** La boucle "while"
+** Fermer le REPL
+* Travailler avec les boucles et les branchements [2/4]
+** Les branchements conditionnels
+** Ajouter "if-else" à notre blockchain
+** Travailler avec "elif"
+** Comprendre "break" et "continue
+** Comprendre les opérateurs booléens "is" et "in"
+* Travailler avec les boucles et les branchements [3/4]
+** Le mot-clé "not"
+** Comprendre les opérateurs logiques "and" et "or"
+** Groupement conditionnel
+** Vérification de notre blockchain
+** Utilisation des conditions à l'intérieur d'une boucle "while"
+* Travailler avec les boucles et les branchements [4/4]
+** Utilisation de "else" dans les boucles
+** Ajout de la fonction "range"
+** Petit exo
+** Résumé
+** Ressources utiles
+* Travailler avec des structures de données complexes partie [1/6]
+** Intro 
+** Comprendre les structures de données pour notre Blockchain
+** Travailler avec les itérables
+** Choisir la bonne structure de donnée
+** Transactions avec des dictionnaires et des tuples
+* Travailler avec des structures de données complexes partie [2/6]
+** Comprendre les transactions
+** Déballage de tuple
+** Minage de blocs
+** Hachage des blocs précédents
+** Liste en compréhension
+* Travailler avec des structures de données complexes partie [3/6]
+** Dictionnaires en compréhension ?
+** Combinaison de liste en compréhension et "if"
+** Amélioration de la validation logique de notre blockchain
+** Gestion d'une liste de participants dans la blockchain
+** Calculer des soldes
+* Travailler avec des structures de données complexes partie [4/6]
+** Récompenser les mineurs de notre blockchain
+** Vérification des transactions
+** Comprendre la référence par rapport à la copie de valeur
+** Travailler avec le sélecteur Range
+** Comprendre des copies superficielles et profondes
+* Travailler avec des structures de données complexes partie [5/6]
+** Comparaison entre "is" et "=="
+** Approfondissemnt dans les méthodes d'itérations
+** Compréhension des fonctions "all" et "any"
+** Comparaisons d'itérables
+** Petit exo 
+* Travailler avec des structures de données complexes partie [6/6]
+** Résumé
+** Ressources utiles
+* Travailler avec les fonctions et les chaînes de caractères partie [1/3]
+** Intro
+** Comparaison entre chaînes et listes
+** Compréhension de la méthode "format"
+** Caractères d'échappement
+** Formater efficacement des chaînes avec "f"
+* Travailler avec les fonctions et les chaînes de caractères partie [2/3]
+** Ajout de formatage de chaîne à notre blockchain
+** Compréhension de la fonction "map"
+** Travailler avec les fonctions Lambda
+** Réduction de listes
+** Déballage des arguments de fonctions
+* Travailler avec les fonctions et les chaînes de caractères partie [3/3]
+** Petit exo
+** Corriger un bug
+** Résumé
+** Ressources utiles
+* Travailler avec la bibliothèque standard de Python partie [1/3]
+** Intro
+** Exploration de la bibliothèque standard de Python
+** Importation de paquets
+** Importation de la bibliothèque "hashlib" pour créer un hash unique
+** Compréhension des hashs
+* Travailler avec la bibliothèque standard de Python partie [2/3]
+** Utiliser d'autres syntaxes d'importation
+** La preuve de travail ([[https://www.youtube.com/watch?v=bBC-nXj3Ng4][proof of work]])
+** Comprendre la preuve de travail
+** Ajout de la preuve de travail dans notre blockchain
+** Inclusion de la preuve de travail dans notre fonction de minage
+* Travailler avec la bibliothèque standard de Python partie [3/3]
+** Correction d'un ordre de hachage
+** Scinder notre code
+** Petit exo
+** Résumé
+** Ressources utiles
+* Travailler avec des fichiers partie [1/3]
+** Intro 
+** Manipulation d'accès au fichier
+** Lire des données depuis un fichier
+** Lire des données sur plusieurs lignes
+** Utilisation de l'instruction de bloc "with"
+* Travailler avec des fichiers partie [2/3]
+** Ajouter un accès au fichier à notre blockchain
+** Convertir des chaînes en objets Python
+** Stockage de données avec [[https://docs.python.org/3/library/pickle.html][Pikle]]
+** Comparaison de Pickle et JSON
+** Changer le projet en JSON
+* Travailler avec des fichiers partie [3/3]
+** Pourquoi nous avons besoin d'une gestion correcte des erreurs ?
+** Petit exo
+** Résumé
+** Ressources utiles
+* Gestion des erreurs et débogage partie [1/2]
+** Intro
+** Trouver les erreurs logiques avec le débogueur
+** Trouver les erreurs de syntaxe
+** Utiliser "try" pour trouver des erreurs d'exécution
+** Quelles erreurs devez-vous gérer ?
+* Gestion des erreurs et débogage partie [2/2]
+** Ajout de gestionnaires d'erreurs à notre blockchain
+** Gestion des erreurs de fichiers vides
+** Résumé
+** Ressources utiles
+* Programmation orientée objet partie [1/5]
+** Intro
+** Qu'est-ce que la programmation orientée objet ?
+** Comprendre les classes
+** Création d'une classe
+** Comparaison de classes, instances et dictionnaires
+* Programmation orientée objet partie [2/5]
+** Compréhension des attributs de classe
+** Affichage des classes avec des méthodes spéciales
+** Attributs publics et privés
+** Compréhension de l'héritage
+** Planification des classes blockchain
+* Programmation orientée objet partie [3/5]
+** Ajout d'une classe "Block" à la blockchain
+** Enregistrement d'objets de classe personnalisée via .json
+** Ajout d'une classe "Transaction"
+** L'héritage en action
+** Ajout d'une classe d'aide "Verification"
+* Programmation orientée objet partie [4/5]
+** Initialisation de la classe "Node"
+** Transformer la blockchain en classe
+** Ajouter une classe "Node"
+** Comprendre "Instance" vs "Class" vs "Static Methods" et "Attributes"
+** Utilisation de méthodes "Static" et "Class" sur la classe "Verification"
+* Programmation orientée objet partie [5/5]
+** Utilisation d'attributs privés dans la blockchain
+** Propriétés vs attributs
+** Petit exo
+** Résumé
+** Ressources utiles
+* Modules partie [1/4]
+** Intro
+** Création de paquets et faisceaux de modules
+** Le dossier "pycache"
+** Les documentations de modules
+** Contrôle des exportations
+* Modules partie [2/4]
+** Compréhension du contexte d'exécution et "=_name_="
+** Pourquoi nous avons besoin d'une clé publique et d'une clé privée ?
+** Utilisation d'anaconda et installation de paquets tiers
+** Utilisation d'environnements virtuels
+** Génération de clés avec un paquet tiers
+* Modules partie [3/4]
+** Connexion du noeud et du portefeuille
+** Génération de clés sur le noeud
+** Enregistrement et chargement des clés dans les fichiers
+** Création de signatures de transactions
+** Vérification des signatures
+* Modules partie [4/4]
+** Amélioration de la vérification logique
+** Résumé
+** Ressources utiles
+* Ajout de HTTP avec Flask partie [1/4]
+** Intro
+** Requêtes HTTP, les bases
+** Comprendre l'API-Endpoints / URLs
+** Formats de données
+** Plannification de notre API
+* Ajout de HTTP avec Flask partie [2/4]
+** Configuration de notre environnement avec Flask
+** Ajout de notre première route
+** Installation de Postman
+** Ajout d'une requête POST
+** Configuration des routes pour gérer notre Portefeuille
+* Ajout de HTTP avec Flask partie [3/4]
+** Retour des fonds
+** Ajout de transactions
+** Aller chercher des transactions ouvertes
+** Tester la clé publique
+** Ajout d'une interface utilisateur (UI: User Interface)
+* Ajout de HTTP avec Flask partie [4/4]
+** Configurer notre UI - création d'un Portefeuille
+** Configurer notre UI - chargement d'un Portefeuille et ajout de minage et transactions
+** Exploration de notre UI
+** Résumé
+** Ressources utiles
+* Le réseau de noeuds partie [1/4]
+** Intro 
+** Ajout de méthodes de gestion des noeuds à la blockchain
+** Configuration des routes pour ajouter des noeuds
+** Ajout une route de suppression de noeud
+** Ajout de "get_Nodes" pour obtenir tous les noeuds
+* Le réseau de noeuds partie [2/4]
+** Attachement d'une interface utilisateur au noeud
+** Exécution de plusieurs noeuds
+** Envoi de requêtes depuis Python
+** Diffusion de transactions - Ajout de la fonction et route
+** Diffusion de transactions - Test et correction d'erreurs
+* Le réseau de noeuds partie [3/4]
+** Diffusion de nouveau blocs - Ajout de la fonction et route
+** Diffusion de nouveau blocs - Informer les noeuds pairs
+** Diffusion de transactions : test
+** Résolution de conflits
+** Compréhension du consensus
+* Le réseau de noeuds partie [4/4]
+** Trouver les conflits
+** Implémentation d'un algorithme de consensus
+** Tester un consensus
+** Résumé
+** Ressources utiles
+* Prochaines étapes et déroulement du cours partie [1/2]
+** Intro
+** N'oubliez pas PEP 8
+** Utilisez PEP 8
+** Utilisez les commentaires
+** Plongez plus en profondeur avec Python
+* Prochaines étapes et déroulement du cours partie [2/2]
+** Amélioration de la blockchain
+** Félicitations
+** Liens pour aller plus loin

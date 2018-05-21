@@ -1,0 +1,102 @@
+#+TITLE: Comment comprendre la technologie Blockchain SANS se ruiner ?
+#+AUTHOR: Laurent Garnier
+
+* Introduction
+** Blockchain dans la vraie vie
+** Technologie Blockchain contre technologie traditionnelle 
+* Les avantages de l'utilisation de la Blockchain
+** Introduction
+** Origine
+** Consensus
+** Sécurité et immuabilité
+** Grande disponibilité
+** Finalité
+* La Blockchain et les crypto-monnaies
+** La Blockchain 1.0 et Bitcoin
+** La Blockchain 2.0 et Ethereum
+* Cryptographie et Mathématiques
+** Fonctions
+** Fonctions de hashage
+** Clés publiques, clés privées
+* Bases du Bitcoin partie [1/2]
+** Introduction
+** Ecosystème
+** Le rôle des portefeuilles (Wallet)
+** Les genres de portefeuilles (papier, logiciel, physique)
+** Transactions et [[https://bitcoin.org/en/glossary/unspent-transaction-output][UTXO]]
+** [[https://99bitcoins.com/what-is-bitcoin-mempool/][Mempool]]
+** Minage et [[https://fr.wikipedia.org/wiki/Preuve_de_travail][preuve de travail]] ([[https://en.wikipedia.org/wiki/Proof-of-work_system][proof of work]])
+* Bases du Bitcoin partie [2/2]
+** Intervalles de blocs, récompense de bloc et frais de transactions
+** Blocs usés ([[https://bitcoin.org/en/glossary/stale-block][stale blocks]])
+** Soft et hard forks
+** Code source des forks
+** Du portefeuille à la Blockchain
+* Echelle du Bitcoin ([[https://en.wikipedia.org/wiki/Bitcoin_scalability_problem][scalability problem]])
+** Déploiement à grande échelle
+** [[https://en.wikipedia.org/wiki/SegWit][SegWit]] (voir cet [[https://bitcoin.fr/segwit-prochaines-etapes/][article]] en français)
+** Maléabilité des transactions
+** [[https://en.wikipedia.org/wiki/Lightning_Network][Lightning Network]] (voir cet [[https://www.crypto-france.com/lightning-network-presentation-explication/][article]] en français)
+* Attaques contre Bitcoin
+** Introduction et importance des attaques contre Bitcoin
+** [[https://fr.wikipedia.org/wiki/Attaque_par_rejeu][Attaques par rejeu]] ([[https://en.wikipedia.org/wiki/Replay_attack][replay attacks]])
+** Attaque des 51% ([[https://en.bitcoin.it/wiki/Majority_attack][majority attack]])
+* Algorithmes de consensus et minage partie [1/2]
+** [[https://fr.wikipedia.org/wiki/Probl%25C3%25A8me_des_g%25C3%25A9n%25C3%25A9raux_byzantins][Problème des généraux byzantins]] ([[https://en.wikipedia.org/wiki/Byzantine_fault_tolerance][Byzantine fault tolerance]])
+** Importance du minage
+** Taux de hachage ([[https://blockchain.info/fr/charts/hash-rate][Hash Rate]])
+** Types de mineurs
+** Coûts du minage de la preuve de travail ([[https://youtu.be/bBC-nXj3Ng4][proof of work]])
+* Algorithmes de consensus et minage partie [2/2]
+** [[https://fr.wikipedia.org/wiki/Preuve_d%2527enjeu][Preuve d'enjeu]] ou preuve de part ([[https://en.wikipedia.org/wiki/Proof-of-stake][proof of stake]])
+** Arguments contre la preuve d'enjeu
+** [[https://www.blockchains-expert.com/delegated-proof-of-stake-la-crypto-democracie/][Preuve de part déléguée]] ([[https://multicoin.capital/2018/03/02/delegated-proof-stake-features-tradeoffs/][delegated proof of stake]]) avec par exemple [[https://steemit.com/steem-bluepaper/@lgsp/french-translation-of-steem-bluepaper-traduction-francaise-du-papier-bleu-de-steem][steemit]]
+** [[https://www.crypto-france.com/nem-xem-presentation/][Preuve d'importance]] ([[https://cryptoslate.com/nem/][proof of importance]])
+* Ethereum partie [1/2]
+** La Blockchain 2.0 et Ethereum
+** [[https://fr.wikipedia.org/wiki/Gestion_de_la_valeur_acquise][Gestion de la valeur acquise]] ([[https://en.wikipedia.org/wiki/Earned_value_management][EVM]])
+** [[https://masterthecrypto.com/ethereum-what-is-gas-gas-limit-gas-price/?lang=fr][Gaz]] ( [[http://ethdocs.org/en/latest/contracts-and-transactions/account-types-gas-and-transactions.html][Gas]] )
+** Contrats intelligents et applications décentralisées ([[https://youtu.be/utmnexPw1bY][Decentralized Applications]])
+** [[https://bitcoin.stackexchange.com/questions/49853/utxo-model-vs-account-balance-model][UTXO model vs account/balance model]]
+** Les jetons (Tokens)
+* Ethereum partie [2/2]
+** [[https://www.ethereum-france.com/qu-est-ce-qu-un-token-erc20/][Protocole ERC20]]
+** [[https://fr.wikipedia.org/wiki/Web_3.0][Web 3.0]] et [[https://www.lifewire.com/what-is-web-3-0-3486623][futur de l'internet]]
+** Limitations et [[https://github.com/ethereum/wiki/wiki/Sharding-FAQ][sharding]]
+* Blockchain en tant qu'investissement
+* L'importance mondiale de la technologie blockchain
+* L'économie des jetons, économie des pièces
+** Introduction à l'économie des jetons
+** Crypto-monnaie : un mot trompeur
+** Economie des jetons
+** Pièce contre jeton
+** Devriez-vous créer votre propre jeton ?
+* Cas d'utilisation industrielle [1/3]
+** Introduction et systèmes basés sur des permissions
+** [[https://blog.chronicled.com/how-to-choose-between-public-and-permissioned-blockchain-for-your-project-3c5d4796e3c8][Technologies des Blockchain basées sur des permissions]], [[https://www.hyperledger.org/][Hyperledger]], [[https://blockchainatberkeley.blog/introduction-to-quorum-blockchain-for-the-financial-sector-58813f84e88c][Quorum]], [[https://stratisplatform.com/files/Stratis_Whitepaper.pdf][Stratis]], [[https://www.multichain.com/][Multichain]]
+** [[https://www.computerworlduk.com/galleries/it-business/best-blockchain-as-service-baas-options-3676555/][Blockchain as a Service]] (BaaS), [[https://azure.microsoft.com/fr-fr/solutions/blockchain/][Microsoft Azure]], [[https://hackernoon.com/blockchain-as-a-service-23-million-reasons-to-help-advance-the-future-of-blockchain-8322bf28e201][23 Million Reasons to Help Advance the Future of Blockchain]]
+** [[https://www.mbtmag.com/blog/2018/02/beyond-efficiency-blockchain-manufacturing][Blockchain in Manufacturing]] et [[https://blockchainfrance.net/2017/08/23/blockchain-logistique-et-supply-chain-panorama-des-possibilites/][Supply Chain]]
+** Blockchain dans la santé ([[https://medium.com/s/welcome-to-blockchain/what-could-blockchain-do-for-healthcare-59c17245448e][healthcare]])
+* Cas d'utilisation industrielle partie [2/3]
+** La blockchain dans la loyauté du consommateur ([[http://www.web-strategist.com/blog/2018/03/09/analysis-should-blockchain-power-your-customer-loyalty-program/][customer loyalty]])
+** La blockchain dans l'immobilier ([[https://hackernoon.com/how-real-estate-will-be-revolutionized-on-the-blockchain-63e0f0c8327][real-estate]])
+** La blockchain dans l'assurance ([[https://www.cbinsights.com/research/blockchain-insurance-disruption/][insurance]])
+** La blockchain dans la comptabilité ([[https://www.accountingtoday.com/opinion/blockchain-is-already-changing-accounting][accounting]])
+** La blockchain dans la publicité ([[https://martechseries.com/mts-insights/guest-authors/blockchain-advertising-implications-every-player-system/][advertising]])
+* Cas d'utilisation industrielle partie [3/3]
+** La blockchain dans la [[https://www.leblogdesfinanciers.fr/2018/02/13/utilisations-de-blockchain-finance/][finance]]
+** La blockchain dans la musique ([[https://dsound.audio/][music]])
+* [[https://ibcgroup.io/fr/services/ico-marketing/][Checklist]] pour les ICO partie [1/2]
+** Qu'est-ce qu'une [[https://bitcoin.fr/quest-ce-quune-ico/][ICO]] ?
+** [[https://en.wikipedia.org/wiki/Use-case_analysis][Use-case analysis]]
+** [[https://www.coindesk.com/look-ico-terms-conditions/][ICO terms analysis]]
+** [[https://medium.com/@kylegibson/the-huge-ico-resource-list-6d7f35225e02][Community analysis]]
+** [[https://hacked.com/dreamteam/][Team analysis]]
+* [[https://ibcgroup.io/fr/services/ico-marketing/][Checklist]] pour les ICO partie [2/2]
+** [[https://hackernoon.com/polyswarms-potential-and-your-ico-analysis-handbook-62648f8d23aa][Tech]] and [[https://www.investopedia.com/tech/what-makes-successful-ico/][feasability]] analysis
+** [[https://fr.wikipedia.org/wiki/Loi_de_Metcalfe][Loi de Metcalfe]] ( [[https://en.wikipedia.org/wiki/Metcalfe%2527s_law][Metcalfe's law]] ) et la théorie des réseaux ([[https://www.technologyreview.com/s/610614/how-network-theory-predicts-the-value-of-bitcoin/][network theory]])
+** [[https://steemit.com/scam/@moonjelly/how-to-create-an-ico-scam-in-5-simple-steps][Problème]] des [[https://www.cryptocompare.com/coins/guides/how-to-avoid-scam-icos/][SCAM]]
+* Crypto-monnaies nationales
+** [[https://journalducoin.com/regulation/198089/][Crypto-monnaies nationales, qu'est-ce que cela veut dire ?]]
+
+
