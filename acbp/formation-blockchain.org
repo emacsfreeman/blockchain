@@ -1,0 +1,525 @@
+#+TITLE: Comment comprendre la technologie Blockchain SANS se ruiner ?
+#+AUTHOR: Laurent Garnier
+
+* Exemples d'utilisations des technologies blockchain
+** Calculs distribués
+    + [[https://truebit.io/]]
+    + [[https://www.ethereum.org/]]
+** Navigateurs
+    + [[https://brave.com/][Brave]] : [[https://rados.io/how-to-use-brave-browser-with-ethereum-dapps/][Rados]]
+    + [[https://medium.com/@trustwallet/fully-featured-dapp-browser-for-mobile-4d062a0c66cb][Medium]] Feb 2018
+    + [[http://ethdocs.org/en/latest/contracts-and-transactions/developer-tools.html#dapp-browsers][Ethdocs]]: Mist, Status, MetaMask, AlethZero, Supernova
+    + [[https://blog.toshi.org/toshi-a-dapp-browser-for-the-ethereum-network-5a64bde25757][Toshi]] medium Dec 2017
+** Stockage
+    + [[https://storj.io/][Storj]] 
+    + [[https://ipfs.io/][IPFS]]
+    + [[https://filecoin.io/]]
+** Vidéos et audios
+    + [[https://experty.io/en][Experty.io]] 
+    + [[https://dsound.audio/#!/feed][dsound.audio]]
+** Réseaux sociaux
+    + [[https://steemit.com/steem-bluepaper/@lgsp/french-translation-of-steem-bluepaper-traduction-francaise-du-papier-bleu-de-steem][steemit.com]]
+    + [[https://akasha.world/][akasha.world]]
+** Messagerie
+    + [[https://status.im/]]
+** Emplois à distance
+    + [[https://ethlance.com/]]
+** Système d'exploitation
+    + [[https://essentia.one/]]
+    + [[https://eos.io/]]
+** Données externes (Oracles)
+    + [[http://www.augur.net/]] ([[https://www.augur.net/whitepaper.pdf][whitepaper]])
+
+* Pré-histoire
+  + [[https://en.wikipedia.org/wiki/Ted_Nelson][Ted Nelson]] and project Xanadu
+  + [[https://en.wikipedia.org/wiki/Nick_Szabo][Nick Szabo]] and [[https://en.bitcoin.it/wiki/Bit_Gold_proposal][Bit Gold]] [[https://nakamotoinstitute.org/secure-property-titles/][Secure Property Titles with Owner Authority]]
+  + [[https://en.wikipedia.org/wiki/Ecash][ecash]]
+  + [[https://en.wikipedia.org/wiki/Hashcash][hashcash]]
+* Introduction
+** Blockchain dans la vraie vie
+*** Calculs distribués
+    + [[https://truebit.io/]]
+    + [[https://www.ethereum.org/]]
+*** Navigateurs
+    + [[https://brave.com/][Brave]] : [[https://rados.io/how-to-use-brave-browser-with-ethereum-dapps/][Rados]]
+    + [[https://medium.com/@trustwallet/fully-featured-dapp-browser-for-mobile-4d062a0c66cb][Medium]] Feb 2018
+    + [[http://ethdocs.org/en/latest/contracts-and-transactions/developer-tools.html#dapp-browsers][Ethdocs]]: Mist, Status, MetaMask, AlethZero, Supernova
+    + [[https://blog.toshi.org/toshi-a-dapp-browser-for-the-ethereum-network-5a64bde25757][Toshi]] medium Dec 2017
+*** Stockage
+    + [[https://storj.io/][Storj]] 
+    + [[https://ipfs.io/][IPFS]]
+    + [[https://filecoin.io/]]
+*** Vidéos et audios
+    + [[https://experty.io/en][Experty.io]] 
+    + [[https://dsound.audio/#!/feed][dsound.audio]]
+*** Réseaux sociaux
+    + [[https://steemit.com/steem-bluepaper/@lgsp/french-translation-of-steem-bluepaper-traduction-francaise-du-papier-bleu-de-steem][steemit.com]]
+    + [[https://akasha.world/][akasha.world]]
+*** Messagerie
+    + [[https://status.im/]]
+*** Emplois à distance
+    + [[https://ethlance.com/]]
+*** Système d'exploitation
+    + [[https://essentia.one/]]
+    + [[https://eos.io/]]
+*** Données externes (Oracles)
+    + [[http://www.augur.net/]] ([[https://www.augur.net/whitepaper.pdf][whitepaper]])
+
+** Qu'est-ce que le [[https://en.wikipedia.org/wiki/Bitcoin][Bitcoin]] ?
+   1. [[https://bitcoin.org/bitcoin.pdf][Original white paper]]
+   2. [[https://blog.octo.com/wp-content/uploads/2016/01/bitcoin_fr.pdf][Traduction]]
+   3. [[https://docs.google.com/document/d/1tEJ4Mtc4o1gGziF37eqHG9OY4OiRyXol5GXSM3pUKy4/edit?hl=fr][Autre traduction]] (par ce [[https://steemit.com/fr/@cryptofrench/fr-bitcoin-whitepaper-en-francais][groupe]])
+   4. [[https://www.youtube.com/playlist?list=PL2-dafEMk2A54lEqRGsl7Zdcbj3IfEj_z][Siraj Raval]]
+
+** Politique monétaire du Bitcoin
+   1. [[https://hackernoon.com/this-time-is-different-part-2-what-bitcoin-really-is-ae58c69b3bf0][The Time is Different Part 2: What Bitcoin Really is]] Mark
+      E. Jeftovic 2017
+
+** Qu'est-ce qu'une [[https://en.wikipedia.org/wiki/Blockchain][blockchain]]
+   1. [[https://www.youtube.com/watch?v=bBC-nXj3Ng4&t=2s][3Blue1Brown]]
+   2. [[https://www.youtube.com/playlist?list=PL2-dafEMk2A7RTBlSSKdnehec0zJO-xLZ][Siraj Raval]]
+   3. [[https://www.anf.es/pdf/Haber_Stornetta.pdf][How to Time Stamp a Digital Document]]
+** Comprendre [[https://en.wikipedia.org/wiki/SHA-2][SHA256]] - [[https://en.wikipedia.org/wiki/Hash_function][Hash]]
+   1. [[https://www.youtube.com/watch?v=S9JGmA5_unY][3Blue1Brown]]
+   2. [[https://www.youtube.com/watch?v=DMtFhACPnTY][Computerphile]]
+   3. [[https://www.staff.science.uu.nl/~tel00101/liter/Books/CrypCont.pdf][Cryptography in Context]] chap1
+
+** Technologie Blockchain contre technologie traditionnelle 
+   + [[https://hackernoon.com/blockchains-versus-traditional-databases-c1a728159f79][Hackernoon]]
+   + [[https://www.coindesk.com/information/what-is-the-difference-blockchain-and-database/][coindesk]]
+   + [[https://youtu.be/JtsDO_haQgo][Crypto Coins]]
+   + [[https://www.factom.com/university/tracks/fundamentals/blockchain-vs-database][factom]]
+   + [[https://www.quora.com/Whats-the-difference-between-blockchain-and-a-database][Quora]]
+* Les avantages de l'utilisation de la Blockchain
+** Introduction
+   + [[https://www.quora.com/What-is-the-benefit-of-blockchain-technology][Quora]]
+   + [[https://www.entrepreneur.com/article/306420][Entrepreneur]]
+** Origine
+   + [[https://en.wikipedia.org/wiki/History_of_bitcoin][History of bitcoin]]
+   + [[https://en.wikipedia.org/wiki/Bitcoin][Bitcoin]]
+   + [[https://en.wikipedia.org/wiki/Satoshi_Nakamoto#Dorian_Nakamoto][Satoshi Nakamoto]]
+   + [[https://en.wikipedia.org/wiki/Hal_Finney_(computer_scientist)][Hal Finney]]
+*** Bitcoin Core
+    + [[https://www.weusecoins.com/peter-todd/][Peter Todd]]
+    + [[https://bitcoin.org/en/bitcoin-core/]]
+** Consensus
+   1. [[https://www.coindesk.com/events/consensus-2018/][coindesk]]
+   2. [[https://mastanbtc.github.io/blockchainnotes/consensustypes/][mastanbtc.github.io]]
+   3. [[https://hackernoon.com/alternative-blockchain-consensus-mechanisms-40c1509af39e][Hackernoon]]
+   4. [[http://poseidon.it.usyd.edu.au/~gramoli/web/doc/pubs/blockchain-consensus.pdf][poseidon]]
+   5. [[https://blockgeeks.com/guides/blockchain-consensus/][blockgeeks]]
+** Sécurité et immuabilité
+   1. [[https://medium.com/cryptoeconomics-australia/the-blockchain-economy-a-beginners-guide-to-institutional-cryptoeconomics-64bf2f2beec4][Medium]] septembre 2017
+   2. [[https://www.coindesk.com/blockchain-immutability-myth/][coindesk]]
+   3. [[https://themerkle.com/are-blockchains-actually-immutable/][themerkle]]
+   4. [[https://ftalphaville.ft.com/2018/04/12/1523503800000/Immutable-ledgers-meet-European-data-protection-/][ftalphaville]]
+   5. [[https://blogs.adb.org/blog/how-secure-blockchain][blogs.adb.org]]
+** Grande disponibilité
+** Finalité
+** Ressources complémentaires
+  1. [[https://medium.com/loom-network/understanding-blockchain-fundamentals-part-1-byzantine-fault-tolerance-245f46fe8419][Medium]] décembre 2017
+  2. [[https://medium.com/@VitalikButerin/the-meaning-of-decentralization-a0c92b76a274][Medium]] février 2017
+  3. [[https://medium.com/cryptoeconomics-australia/the-blockchain-economy-a-beginners-guide-to-institutional-cryptoeconomics-64bf2f2beec4][Medium]] septembre 2017
+  4. [[https://www.mail-archive.com/cryptography@metzdowd.com/msg09997.html][Satoshi Nakamoto]] 13 novembre 2008
+  5. [[https://www.coindesk.com/short-guide-blockchain-consensus-protocols/][coindesk.com]] mars 2017
+  6. [[https://www.superdatascience.com/podcast-rise-of-blockchain/][SuperDataScience]] podcast
+
+* La Blockchain et les crypto-monnaies
+** La Blockchain 1.0 et Bitcoin
+*** Comment fonctionne le minage : [[https://en.wikipedia.org/wiki/Cryptographic_nonce][nonce]]
+    1. [[https://bitcoin.stackexchange.com/questions/53569/what-is-a-nonce][bitcoin.stackexchange]]
+    2. [[https://youtu.be/NEpmDdM6pm0][Bitcoin Uncensored]]
+    3. [[https://en.bitcoinwiki.org/wiki/Nonce][bitcoinwiki]]
+    4. [[https://www.investopedia.com/terms/n/nonce.asp][investopedia]]
+    5. [[https://www.reddit.com/r/Bitcoin/comments/7u898u/what_the_heck_is_a_nonce/][reddit]]
+*** Comment fonctionne le minage : l'énigme cryptographique 
+   1. [[https://steemit.com/bitcoin/@cryptovest/bitcoin-and-blockchain-what-math-puzzle-do-miners-actually-solve][steemit]]
+   2. [[https://www.coindesk.com/how-are-bitcoins-mined/][coindesk]]
+   3. [[https://motherboard.vice.com/en_us/article/7xwx7z/a-popular-bitcoin-puzzle-has-revealed-an-even-larger-mystery][motherboard]]
+   4. [[https://medium.com/all-things-ledger/decoding-the-enigma-of-bitcoin-mining-f8b2697bc4e2][medium]]
+   5. [[https://www.quora.com/What-are-Bitcoin-miners-actually-solving-What-kind-of-math-problems-are-they-solving-and-what-do-they-achieve-by-solving-them][quora]]
+*** Fermes de minage
+   1. [[https://blog.bitcoin.org.hk/bitcoin-mining-and-energy-consumption-4526d4b56186][Bitcoin mining and energy consumption]] Leo Weese 2017
+   2. [[https://www.youtube.com/watch?v=MwWIXzTOoZY][Dans une mine
+      secrète de bitcoin en Islande]] autodisciple mai 2017
+*** Comment les mineurs choisissent les transactions   
+   1. [[https://www.coindesk.com/information/how-bitcoin-mining-works/][How
+      Bitcoin Mining Works]] Noelle Acheson 2018
+*** CPU vs GPU vs ASIC
+   1. [[https://www.youtube.com/watch?v=eK4xY0NhCKE][VoskCoin]] avril 2018
+   2. [[https://www.vijaypradeep.com/blog/2017-04-28-ethereums-memory-hardness-explained/][Ethereum's Memory Hardness Explained, and the Road to Mining it
+      with Custom Hardware]] Vijay Pradeep, 2017
+*** Comment fonctionnent les Mempools ?
+   1. [[https://blog.kaiko.com/an-in-depth-guide-into-how-the-mempool-works-c758b781c608][An in-depth guide into how the mempool works]] Marion Deneuville
+      2016
+   2. [[https://www.youtube.com/watch?v=PeINuxxZAyg][Ivan on Tech]] décembre 2017
+   3. [[https://www.youtube.com/watch?v=tcMEa4vxgk8][DevilsBitcoin]]
+      novembre 2017
+*** Attaque des 51%
+   1. [[https://blog.sia.tech/choosing-asics-for-sia-b318505b5b51][Choosing ASICs for Sia]] David Vorick 2017
+
+*** Transactions et UTXO 
+    1. [[https://medium.com/@jimmysong/high-fees-and-utxo-sets-474969adebd2][Jimmy Song]]
+    2. [[https://www.investopedia.com/terms/u/utxo.asp][investopedia]]
+    3. [[http://learnmeabitcoin.com/glossary/utxo][learnmebitcoin]]
+    4. [[http://earlz.net/view/2017/07/27/1820/what-is-a-utxo-and-how-does-it][earlz.net]]
+    5. [[https://en.wikipedia.org/wiki/Unspent_transaction_output][unspent transaction]]
+*** D'où viennent les frais de transactions ?
+    1. [[https://en.bitcoin.it/wiki/Transaction_fees][bitcoinwiki]]
+    2. [[https://thenextweb.com/hardfork/2018/05/28/bitcoins-median-transaction-fee-some-of-the-lowest-since-2011/][thenextweb.com]]
+    3. [[https://www.quora.com/What-is-the-transaction-fee-for-me-to-transfer-one-bitcoin][Quora]]
+    4. [[https://www.reddit.com/r/Bitcoin/comments/7hdb7a/eli5_where_does_the_transaction_fee_go/][reddit]]
+    5. [[https://arstechnica.com/tech-policy/2018/02/bitcoins-transaction-fee-crisis-is-over-for-now/][arstechnica.com]]
+*** Comment fonctionnent les portefeuilles ?
+    1. [[https://bitcoin.org/en/how-it-works][bitcoin.org]]
+    2. [[https://www.coindesk.com/information/how-to-store-your-bitcoins/][coindesk]]
+    3. [[https://medium.com/@Crowdwiz.io/how-does-a-cryptocurrency-wallet-work-and-how-to-create-one-f234c6ec076f][Medium]]
+    4. [[https://www.quora.com/How-does-a-Bitcoin-wallet-work][Quora]]
+    5. [[https://en.bitcoin.it/wiki/Wallet][Wallet]]
+*** Signatures : clés publiques et privées
+    1. [[https://en.wikipedia.org/wiki/Public-key_cryptography][Wikipedia]]
+    2. [[https://en.bitcoin.it/wiki/Private_key][bitcoinwiki]]
+    3. [[https://medium.com/chain-intelligence/tldr-guide-bitcoin-private-key-public-key-and-public-address-623ad99768c3][Medium]]
+    4. [[https://www.blockchain-council.org/blockchain/how-does-blockchain-use-public-key-cryptography/][Blockchain Council]]
+    5. [[https://www.science.org.au/curious/video/public-private-keys][science.org.au]]
+*** Qu'est-ce que le témoin séparé ou Segregated Witness (SegWit) ?
+   1. [[https://medium.com/@jimmysong/understanding-segwit-block-size-fd901b87c9d4][Understanding Segwit Block Size]] Jimmy Song 2017
+   2. [[https://www.coindesk.com/information/what-is-segwit/][Coindesk]]
+   3. [[https://www.coindesk.com/bitcoins-new-code-will-finally-boast-full-segwit-support/][Coindesk]]
+   4. [[https://www.investopedia.com/terms/s/segwit-segregated-witness.asp][investopedia]]
+   5. [[https://www.cryptocompare.com/coins/guides/what-is-segwit/][cryptoCompare]]
+*** Clé publique vs adresse Bitcoin
+   1. [[https://www.reddit.com/r/Bitcoin/comments/3filud/whats_the_difference_between_public_key_and/][What's the difference between public key and public address?]]
+      hksupport 2016
+   2. [[https://en.bitcoin.it/wiki/Technical_background_of_version_1_Bitcoin_addresses][bitcoinwiki]]
+   3. [[https://www.quora.com/What-is-the-difference-between-the-Bitcoin-Address-and-the-Public-Key][Quora]]
+   4. [[https://www.futureofeverything.io/what-is-bitcoin-address/][futureofeverything]]
+   5. [[https://medium.com/@karthikmargabandu7/public-keys-private-keys-and-bitcoin-address-bf26125addf7][Medium]]
+*** Portefeuille hiérarchiquement déterministes
+   1. [[https://bitcoinmagazine.com/articles/deterministic-wallets-advantages-flaw-1385450276/][Deterministic Wallets, Their Advantages and their Understated
+      Flaws]] Vitalik Buterin 2013
+   2. [[https://en.bitcoin.it/wiki/Deterministic_wallet][bitcoinwiki]]
+   3. [[https://coinsutra.com/hd-wallets-deterministic-wallet/][coinsutra]]
+   4. [[https://www.investopedia.com/terms/h/hd-wallet-hierarchical-deterministic-wallet.asp][investopedia]]
+   5. [[https://medium.com/vault0x/hierarchically-deterministic-wallets-the-concepts-3aa487e71235][Medium]]
+** Le [[https://fr.wikipedia.org/wiki/Probl%25C3%25A8me_des_g%25C3%25A9n%25C3%25A9raux_byzantins][problème des généraux byzantins]]
+   1. [[https://people.eecs.berkeley.edu/~luca/cs174/byzantine.pdf][The Byzantine Generals Problem]]
+   2. [[https://medium.com/loom-network/understanding-blockchain-fundamentals-part-1-byzantine-fault-tolerance-245f46fe8419][Medium]] décembre 2017
+   3. [[https://blog.cdemi.io/byzantine-fault-tolerance/][blog.cdemi]]
+   4. [[https://hackernoon.com/byzantine-fault-tolerance-in-proof-of-stake-protocols-ab9746521b24][Hackernoon]]
+   5. [[http://pmg.csail.mit.edu/papers/osdi99.pdf][February 1999]]
+*** Protocole de consensus : défense contre les attaquants
+   1. [[https://cryptocurrencyhub.io/an-introduction-to-consensus-algorithms-proof-of-stake-and-proof-of-work-cd0e1e6baf52][Medium]] mars 2018
+   2. [[https://hackernoon.com/a-hitchhikers-guide-to-consensus-algorithms-d81aae3eb0e3][Hackernoon]] février 2018
+   3. [[https://medium.com/@credits/a-blockchain-shield-why-decentralized-platforms-use-different-protocol-of-consensus-eb2719423c79][Medium]] janvier 2018
+   4. [[https://www.mail-archive.com/cryptography@metzdowd.com/msg09997.html][Satoshi Nakamoto]] novembre 2008
+*** Protocole de consensus : [[https://en.wikipedia.org/wiki/Proof-of-work_system][Proof-of-Work]] (PoW)
+   1. [[https://www.youtube.com/watch?v=bBC-nXj3Ng4&t=2s][3Blue1Brown]]
+   2. [[https://medium.com/loom-network/understanding-blockchain-fundamentals-part-2-proof-of-work-proof-of-stake-b6ae907c7edb][Medium]] décembre 2017
+   3. [[https://www.coindesk.com/short-guide-blockchain-consensus-protocols/][Amy Castor]] 2017
+
+** La Blockchain 2.0 et Ethereum
+   1. [[https://www.ethereum.org/]]
+*** Qu'est-ce que [[https://en.wikipedia.org/wiki/Ethereum][Ethereum]] ?
+   1. [[https://blockchainreview.io/wp-content/uploads/2018/03/02.01._final_Ethereum-White-Paper-Made-Simple.pdf][Ethereum White Paper Made Simple]]
+   2. [[http://www.ethdocs.org/en/latest/]]
+   3. [[https://solidity.readthedocs.io/en/v0.4.24/]]
+   4. [[https://github.com/ethereum/wiki/wiki/White-Paper][GitHub]]
+   5. [[https://coincentral.com/what-is-ethereum/][What is Ethereum? | The Ultimate Beginnners' Guide]] Alex Moskov 2017
+*** Qu'est-ce qu'un contrat intelligent ?
+   1. [[https://medium.freecodecamp.org/smart-contracts-for-dummies-a1ba1e0b9575][Smart Contracts for Dummies]] Nick Custodio 2017
+   2. [[https://hackernoon.com/ether-purchase-power-df40a38c5a2f][Calculating Costs in Ethereum Contracts]] Danny Ryan 2017
+*** Applications décentralisées (Dapps)
+   1. [[https://www.youtube.com/playlist?list=PL2-dafEMk2A5VKD1CvdJMNIYerxoyPOcU][Siraj Raval]]
+   2. [[https://www.youtube.com/redirect?event=comments&redir_token=xupoSC92QiU-ouWOi06z8Bmo5Nh8MTUyNzQxNTA0OUAxNTI3MzI4NjQ5&q=http%253A%252F%252Ffile.allitebooks.com%252F20160822%252FDecentralized%252520Applications.pdf][Siraj Raval's book]]
+   3. [[https://www.youtube.com/watch?v=4rczD8xKPJc][Ivan on Tech]]
+   4. [[https://www.youtube.com/watch?v=niygnggE5-s][Ivan on Tech]]
+   5. [[https://blog.ethereum.org/2014/05/06/daos-dacs-das-and-more-an-incomplete-terminology-guide/][DAOs, DACs, DAs, and More: An Incomplete Terminology Guide]]
+      Vitalik Buterin 2014
+*** Organisations Autonomes Décentralisées ([[https://en.wikipedia.org/wiki/The_DAO_(organization)][DAOs]])
+   1. [[https://www.youtube.com/watch?v=5JrdR6SRlWE][Ivan on Tech]]
+   2. [[https://www.youtube.com/watch?v=5Tr13l0O1Ws&t=1171s][Siraj Raval]]
+*** L'attaque DAO
+   1. [[https://www.quora.com/Who-got-rich-from-The-DAO-Attack][Quora]]
+   2. [[http://muratbuffalo.blogspot.com/2018/01/modeling-doa-attack-in-pluscal.html][muratbuffalo.blogspot.fr]]
+   3. [[https://www.coindesk.com/understanding-dao-hack-journalists/][coindesk.com]]
+   4. [[https://link.springer.com/article/10.1007/BF00115009][Learning to Predict by the Methods of Temporal Differences]]
+      Richard Sutton 1988
+   5. [[https://www.bloomberg.com/features/2017-the-ether-thief/][The Ether Thief]] Matthew Leising 2017
+*** Fourches (soft and hard forks)
+   1. [[https://en.wikipedia.org/wiki/Fork_(blockchain)][Wikipedia]]
+   2. [[https://www.youtube.com/watch?v=WiVEp3gcURM][Ivan on Tech]]
+   3. [[https://link.springer.com/article/10.1007/BF00115009][Learning to Predict by the Methods of Temporal Differences]]
+      Richard Sutton 1988
+   4. [[https://coinpickings.com/complete-guide-bitcoin-blockchain-forks/][Complete Guide on Bitcoin and Blockchain Forks]] Khaleel Kazi 2017
+*** ICO
+   1. [[https://www.youtube.com/watch?v=iyuZ_bCQeIE][Siraj Raval]]
+   2. [[https://www.youtube.com/watch?v=HRnDfYHR3n0&t=28s][Ivan on Tech]]
+   3. [[https://techcrunch.com/2017/05/23/wtf-is-an-ico/][WTF is an ICO?]] Alex Wilhem 2017
+*** Etude de cas d'ICOs
+   1. [[https://hackernoon.com/what-the-heck-is-an-ico-6f3736d5f5a][What the heck is an ICO?]] Praveen Krishnan 2018
+   2. [[https://finnscave.com/2018/02/07/how-crypto-tokens-will-enable-the-disruption-of-businesses-like-uber-and-airbnb/][How Crypto Tokens will Enable the Disruption of Business like
+      Uber and Airbnb]] Andrew Finn 2018
+*** Startups blockchain : papiers blancs
+   1. [[https://ripple.com/files/ripple_consensus_whitepaper.pdf][Ripple]]
+   2. [[https://github.com/EOSIO/Documentation/blob/master/TechnicalWhitePaper.md][EOS]]
+   3. [[https://youtu.be/XUajzpUapw0][Litecoin]]
+   4. [[https://www.stellar.org/papers/stellar-consensus-protocol.pdf][Stellar]]
+   5. [[https://whitepaperdatabase.com/cardano-ada-whitepaper/][Cardano]]
+   6. [[https://whitepaperdatabase.com/venezuela-petro-cryptocurrency-ptr-english-whitepaper/][Petro]]
+   7. [[https://whitepaperdatabase.com/monero-xmr-whitepaper/][Monero]]
+   8. [[https://nem.io/wp-content/themes/nem/files/catapultwhitepaper.pdf][NEM]] catapult
+   9. [[https://nem.io/wp-content/themes/nem/files/NEM_techRef.pdf][NEM]] technical reference Feb 2018
+  10. [[https://docs.nem.io/en]]
+  11. [[http://iotatoken.com/IOTA_Whitepaper.pdf][IOTA]]
+  12. [[https://whitepaperdatabase.com/zcash-zec-whitepaper/][Zcash]]
+  13. [[https://steem.io/steem-whitepaper.pdf][Steem]]
+  14. [[https://lisk.io/academy/blockchain-business/icos/whitepapers-explained][Lisk]]
+*** PoS cryptocurrencies
+    1. [[https://github.com/dashpay/dash/wiki/Whitepaper][Dash]]
+    2. [[http://docs.neo.org/en-us/][NEO]]
+    3. [[https://pivx.org/wp-content/uploads/2017/03/PIVX-purple-paper-Technincal-Notes.pdf][PIVX]]
+    4. [[https://okcash.org/developer-documentation.html#][OKCASH]]
+    5. [[https://whitepaperdatabase.com/nav-coin-nav-whitepaper/][NAV Coin]]
+    6. [[https://stratisplatform.com/files/Stratis_Whitepaper.pdf][Stratis]]
+    7. [[https://www.reddcoin.com/papers/PoSV.pdf][Reddcoin]]
+    8. [[https://www.diviproject.org/assets/files/wp-en.pdf][DIVI]]
+    9. [[https://d1l2zzodn88ssp.cloudfront.net/wp-content/uploads/2016/02/07084748/LiskWhitepaper#!][Lisk]]
+   10. [[https://github.com/ethereum/wiki/wiki/Proof-of-Stake-FAQ][Ethereum]]
+   11. [[https://peercoin.net/][Peercoin]]
+   12. [[https://blockonomi.com/diamond-dmd-guide/][Diamond]]
+** Blockchain et le Web 3.0
+   1. [[https://www.youtube.com/watch?v=aPVmd7SyKfQ][Siraj Raval]]
+   2. [[https://www.youtube.com/watch?v=TCiQkSaHidk][Ivan on Tech]]
+   3. [[https://medium.com/@matteozago/why-the-web-3-0-matters-and-you-should-know-about-it-a5851d63c949][Why the Web 3.0 Matters and you should know about]] it Matteo
+      Gianpietro Zago 2018
+* Cryptographie et Mathématiques
+** Fonctions
+** Fonctions de hashage
+   [[https://anders.com/blockchain/hash.html][test]]
+   1. [[https://en.wikipedia.org/wiki/Hash_function][Wikipedia]]
+   2. [[https://www.khanacademy.org/economics-finance-domain/core-finance/money-and-banking/bitcoin/v/bitcoin-cryptographic-hash-function][Khan Academy]]
+   3. [[https://www.youtube.com/watch?v=PeYFCycFkzo][Udacity]]
+   4. [[https://www.tutorialspoint.com/cryptography/cryptography_hash_functions.htm][tutorialspoint]]
+   5. [[https://www.techopedia.com/definition/19744/hash-function][techopedia]]
+** Clés publiques, clés privées
+   1. [[https://ethereum.stackexchange.com/questions/33171/ethereum-address-vs-public-key][ethereum.stackexchange]]
+   2. [[https://etherworld.co/2017/11/17/understanding-the-concept-of-private-key-public-key-and-address-in-ethereum-blockchain/][etherworld.co]]
+   3. [[https://theethereum.wiki/w/index.php/Accounts,_Addresses,_Public_And_Private_Keys,_And_Tokens][ethereumwiki]]
+   4. [[https://blog.wetrust.io/why-do-i-need-a-public-and-private-key-on-the-blockchain-c2ea74a69e76][Medium]]
+   5. [[http://nethereum.readthedocs.io/en/feat-noobs_4th_iteration/Nethereum.Docs/docs/Ethereum-glossary-for-newbies/public-private-key/][nethereum]]
+* Bases du Bitcoin partie [1/2]
+** Introduction
+** Ecosystème
+   [[https://bitcoin.org/en/glossary/simplified-payment-verification][SPV]]
+   [[https://bitcoin.org/en/developer-guide#simplified-payment-verification-spv][Developer Guide]]
+   [[https://medium.com/@jonaldfyookball/why-every-bitcoin-user-should-understand-spv-security-520d1d45e0b9][Medium]]
+   [[https://www.coin-report.net/fr/spv/][FR]]
+   [[https://youtu.be/24lMzKVqcS8][YT]]
+   [[https://www.youtube.com/watch?v=UieiMU-ImvI&list=PLQVvvaa0QuDcq2QME4pfeh0cE71mkb_qz][Bitcoin Explained]]
+   [[https://www.quora.com/What-is-simple-payment-verification][Quora]]
+   [[http://docs.electrum.org/en/latest/spv.html][Electrum]]
+** Le rôle des portefeuilles (Wallet)
+** Les genres de portefeuilles (papier, logiciel, physique)
+   1. [[https://bitcoin.org/fr/choisir-votre-porte-monnaie][bitcoin.org]]
+** Transactions et [[https://bitcoin.org/en/glossary/unspent-transaction-output][UTXO]]
+** [[https://99bitcoins.com/what-is-bitcoin-mempool/][Mempool]]
+   [[https://blockchain.info/charts/mempool-size]]
+** Minage et [[https://fr.wikipedia.org/wiki/Preuve_de_travail][preuve de travail]] ([[https://en.wikipedia.org/wiki/Proof-of-work_system][proof of work]])
+   [[https://freestartupkits.com/articles/technology/cryptocurrency-news-and-tips/how-to-build-a-blockchain-application-python/][Free startup kits]] implémentation en Python
+* Bases du Bitcoin partie [2/2]
+** Intervalles de blocs, récompense de bloc et frais de transactions
+** Blocs usés ([[https://bitcoin.org/en/glossary/stale-block][stale blocks]])
+** Soft et hard forks
+** Code source des forks
+** Du portefeuille à la Blockchain
+* Echelle du Bitcoin ([[https://en.wikipedia.org/wiki/Bitcoin_scalability_problem][scalability problem]])
+** Déploiement à grande échelle
+** [[https://en.wikipedia.org/wiki/SegWit][SegWit]] (voir cet [[https://bitcoin.fr/segwit-prochaines-etapes/][article]] en français)
+** Maléabilité des transactions
+** [[https://en.wikipedia.org/wiki/Lightning_Network][Lightning Network]] (voir cet [[https://www.crypto-france.com/lightning-network-presentation-explication/][article]] en français et [[https://lightning.network/][celui-ci]] en anglais)
+* Attaques contre Bitcoin
+** Introduction et importance des attaques contre Bitcoin
+** [[https://fr.wikipedia.org/wiki/Attaque_par_rejeu][Attaques par rejeu]] ([[https://en.wikipedia.org/wiki/Replay_attack][replay attacks]])
+** Attaque des 51% ([[https://en.bitcoin.it/wiki/Majority_attack][majority attack]])
+* Algorithmes de consensus et minage partie [1/2]
+** [[https://fr.wikipedia.org/wiki/Probl%25C3%25A8me_des_g%25C3%25A9n%25C3%25A9raux_byzantins][Problème des généraux byzantins]] ([[https://en.wikipedia.org/wiki/Byzantine_fault_tolerance][Byzantine fault tolerance]])
+** Importance du minage
+** Taux de hachage ([[https://blockchain.info/fr/charts/hash-rate][Hash Rate]])
+** Types de mineurs
+** Coûts du minage de la preuve de travail ([[https://youtu.be/bBC-nXj3Ng4][proof of work]])
+   [[https://en.wikipedia.org/wiki/Cryptographic_nonce][Cryptographic nonce]] (version [[https://fr.wikipedia.org/wiki/Nonce_(cryptographie)][française]]) [[https://en.bitcoin.it/wiki/Nonce][bitcoinWiki]]
+* Algorithmes de consensus et minage partie [2/2]
+** [[https://fr.wikipedia.org/wiki/Preuve_d%2527enjeu][Preuve d'enjeu]] ou preuve de part ([[https://en.wikipedia.org/wiki/Proof-of-stake][proof of stake]])
+   [[https://youtu.be/9nQPcNY32JQ][Vlad Zamfir]]
+   [[https://en.bitcoin.it/wiki/Proof_of_Stake][bitcoinwiki]]
+   [[https://www.quora.com/How-exactly-is-proof-of-stakes-implemented][Quora]]
+   [[https://www.blockchain-council.org/blockchain/exactly-proof-stake-implemented/][Blockchain Council]]
+   [[https://smartereum.com/10431/authorities-in-taiwan-to-launch-legal-framework-on-cryptocurrency-regulation-by-november/][smartereum]]
+   [[https://medium.com/swlh/lisk-a-blockchain-ecosystem-based-on-javascript-ff95b7de7af7][Lisk]] Medium Janvier 2018
+** Arguments contre la preuve d'enjeu
+** [[https://www.blockchains-expert.com/delegated-proof-of-stake-la-crypto-democracie/][Preuve de part déléguée]] ([[https://multicoin.capital/2018/03/02/delegated-proof-stake-features-tradeoffs/][delegated proof of stake]]) avec par exemple [[https://steemit.com/steem-bluepaper/@lgsp/french-translation-of-steem-bluepaper-traduction-francaise-du-papier-bleu-de-steem][steemit]]
+   + [[https://youtu.be/hAxDjAmRKkU][DPoS: The Sleeper Consensus Algorithm?]]
+   
+** [[https://www.crypto-france.com/nem-xem-presentation/][Preuve d'importance]] ([[https://cryptoslate.com/nem/][proof of importance]])
+* Ethereum partie [1/2]
+** La Blockchain 2.0 et Ethereum
+** [[https://github.com/ethereum/wiki/wiki/Ethereum-Virtual-Machine-(EVM)-Awesome-List][Ethereum Virtual Machine]]    
+   [[https://en.wikipedia.org/wiki/Sandbox_(software_development)][Sandbox]]
+   [[https://github.com/jpmorganchase/cakeshop/wiki/Sandbox][GitHub Wiki]]
+   [[https://ethereum.github.io/browser-solidity/#optimize=false&version=soljson-v0.4.24+commit.e67f0147.js][Code Example]]
+   [[https://medium.com/@mvmurthy/full-stack-hello-world-voting-ethereum-dapp-tutorial-part-1-40d2d0d807c2][Medium]]
+*** How to become an Ethereum developer
+    + [[https://blockgeeks.com/guides/ethereum-developer/][blockgeeks]]
+    + [[https://youtu.be/DBJFkOJ9AiY][YouTube]]
+    + [[https://hackernoon.com/getting-started-as-an-ethereum-web-developer-9a2a4ab47baf][Hackernoon]]
+    + [[https://www.reddit.com/r/ethereum/comments/6as94g/how_can_i_become_an_ethereum_dev_starting_from/][Reddit]]
+    + [[https://howtotoken.com/career/start-ethereum-development-career/][howtotoken]]
+    + [[https://ethereumdev.io/testing-solidity-smart-contracts/][ethereumdev.io]]
+  
+** [[https://masterthecrypto.com/ethereum-what-is-gas-gas-limit-gas-price/?lang=fr][Gaz]] ( [[http://ethdocs.org/en/latest/contracts-and-transactions/account-types-gas-and-transactions.html][Gas]] )
+** Contrats intelligents et applications décentralisées ([[https://youtu.be/utmnexPw1bY][Decentralized Applications]])
+*** Calculs distribués
+    + [[https://truebit.io/]]
+    + [[https://www.ethereum.org/]]
+    + [[https://blockstack.org/]]
+*** Navigateurs
+    + [[https://brave.com/][Brave]] : [[https://rados.io/how-to-use-brave-browser-with-ethereum-dapps/][Rados]]
+    + [[https://medium.com/@trustwallet/fully-featured-dapp-browser-for-mobile-4d062a0c66cb][Medium]] Feb 2018
+    + [[http://ethdocs.org/en/latest/contracts-and-transactions/developer-tools.html#dapp-browsers][Ethdocs]]: Mist, Status, MetaMask, AlethZero, Supernova
+    + 
+    + [[https://blog.toshi.org/toshi-a-dapp-browser-for-the-ethereum-network-5a64bde25757][Toshi]] medium Dec 2017
+*** Stockage
+    + [[https://storj.io/][Storj]] 
+    + [[https://ipfs.io/][IPFS]]
+    + [[https://filecoin.io/]]
+*** Vidéos et audios
+    + [[https://experty.io/en][Experty.io]] 
+    + [[https://dsound.audio/#!/feed][dsound.audio]]
+*** Réseaux sociaux
+    + [[https://steemit.com/steem-bluepaper/@lgsp/french-translation-of-steem-bluepaper-traduction-francaise-du-papier-bleu-de-steem][steemit.com]]
+    + [[https://akasha.world/][akasha.world]]
+*** Messagerie
+    + [[https://status.im/]]
+*** Emplois à distance
+    + [[https://ethlance.com/]]
+*** Système d'exploitation
+    + [[https://essentia.one/]]
+    + [[https://eos.io/]]
+*** Données externes (Oracles)
+    + [[http://www.augur.net/]] ([[https://www.augur.net/whitepaper.pdf][whitepaper]])
+    + 
+** [[https://bitcoin.stackexchange.com/questions/49853/utxo-model-vs-account-balance-model][UTXO model vs account/balance model]]
+** Les jetons (Tokens)
+* Ethereum partie [2/2]
+** [[https://www.ethereum-france.com/qu-est-ce-qu-un-token-erc20/][Protocole ERC20]]
+   [[https://github.com/bokkypoobah/Tokens/blob/master/contracts/FixedSupplyToken.sol][Fxixed Supply Token]]
+   [[https://ethereum.github.io/browser-solidity/#optimize=false&version=soljson-v0.4.19+commit.c4cbbb05.js][Online Solidity Compiler]]
+** [[https://fr.wikipedia.org/wiki/Web_3.0][Web 3.0]] et [[https://www.lifewire.com/what-is-web-3-0-3486623][futur de l'internet]]
+** Limitations et [[https://github.com/ethereum/wiki/wiki/Sharding-FAQ][sharding]]
+* Blockchain en tant qu'investissement
+* L'importance mondiale de la technologie blockchain
+* L'économie des jetons, économie des pièces
+** Introduction à l'économie des jetons
+** Crypto-monnaie : un mot trompeur
+** Economie des jetons
+** Pièce contre jeton
+** Devriez-vous créer votre propre jeton ?
+* Cas d'utilisation industrielle [1/3]
+** Introduction et systèmes basés sur des permissions
+** [[https://blog.chronicled.com/how-to-choose-between-public-and-permissioned-blockchain-for-your-project-3c5d4796e3c8][Technologies des Blockchain basées sur des permissions]], [[https://www.hyperledger.org/][Hyperledger]], [[https://blockchainatberkeley.blog/introduction-to-quorum-blockchain-for-the-financial-sector-58813f84e88c][Quorum]], [[https://stratisplatform.com/files/Stratis_Whitepaper.pdf][Stratis]], [[https://www.multichain.com/][Multichain]]
+** [[https://www.computerworlduk.com/galleries/it-business/best-blockchain-as-service-baas-options-3676555/][Blockchain as a Service]] (BaaS), [[https://azure.microsoft.com/fr-fr/solutions/blockchain/][Microsoft Azure]], [[https://hackernoon.com/blockchain-as-a-service-23-million-reasons-to-help-advance-the-future-of-blockchain-8322bf28e201][23 Million Reasons to Help Advance the Future of Blockchain]]
+** [[https://www.mbtmag.com/blog/2018/02/beyond-efficiency-blockchain-manufacturing][Blockchain in Manufacturing]] et [[https://blockchainfrance.net/2017/08/23/blockchain-logistique-et-supply-chain-panorama-des-possibilites/][Supply Chain]]
+** Blockchain dans la santé ([[https://medium.com/s/welcome-to-blockchain/what-could-blockchain-do-for-healthcare-59c17245448e][healthcare]])
+* Cas d'utilisation industrielle partie [2/3]
+** La blockchain dans la loyauté du consommateur ([[http://www.web-strategist.com/blog/2018/03/09/analysis-should-blockchain-power-your-customer-loyalty-program/][customer loyalty]])
+** La blockchain dans l'immobilier ([[https://hackernoon.com/how-real-estate-will-be-revolutionized-on-the-blockchain-63e0f0c8327][real-estate]])
+** La blockchain dans l'assurance ([[https://www.cbinsights.com/research/blockchain-insurance-disruption/][insurance]])
+** La blockchain dans la comptabilité ([[https://www.accountingtoday.com/opinion/blockchain-is-already-changing-accounting][accounting]])
+** La blockchain dans la publicité ([[https://martechseries.com/mts-insights/guest-authors/blockchain-advertising-implications-every-player-system/][advertising]])
+* Cas d'utilisation industrielle partie [3/3]
+** La blockchain dans la [[https://www.leblogdesfinanciers.fr/2018/02/13/utilisations-de-blockchain-finance/][finance]]
+** La blockchain dans la musique ([[https://dsound.audio/][music]])
+* [[https://ibcgroup.io/fr/services/ico-marketing/][Checklist]] pour les ICO partie [1/2]
+** Qu'est-ce qu'une [[https://bitcoin.fr/quest-ce-quune-ico/][ICO]] ?
+** [[https://en.wikipedia.org/wiki/Use-case_analysis][Use-case analysis]]
+** [[https://www.coindesk.com/look-ico-terms-conditions/][ICO terms analysis]]
+** [[https://medium.com/@kylegibson/the-huge-ico-resource-list-6d7f35225e02][Community analysis]]
+** [[https://hacked.com/dreamteam/][Team analysis]]
+* [[https://ibcgroup.io/fr/services/ico-marketing/][Checklist]] pour les ICO partie [2/2]
+** [[https://hackernoon.com/polyswarms-potential-and-your-ico-analysis-handbook-62648f8d23aa][Tech]] and [[https://www.investopedia.com/tech/what-makes-successful-ico/][feasability]] analysis
+** [[https://fr.wikipedia.org/wiki/Loi_de_Metcalfe][Loi de Metcalfe]] ( [[https://en.wikipedia.org/wiki/Metcalfe%2527s_law][Metcalfe's law]] ) et la théorie des réseaux ([[https://www.technologyreview.com/s/610614/how-network-theory-predicts-the-value-of-bitcoin/][network theory]])
+** [[https://steemit.com/scam/@moonjelly/how-to-create-an-ico-scam-in-5-simple-steps][Problème]] des [[https://www.cryptocompare.com/coins/guides/how-to-avoid-scam-icos/][SCAM]]
+* Crypto-monnaies nationales
+** [[https://journalducoin.com/regulation/198089/][Crypto-monnaies nationales, qu'est-ce que cela veut dire ?]]
+* Bonus
+  1. Blockchain version Go
+     + [[https://youtu.be/gju-bml4kdw][package main]] YT Décembre 2017
+     + [[https://medium.com/@mycoralhealth/code-your-own-proof-of-stake-blockchain-in-go-610cd99aa658][Medium]] 25 mars 2018 en PoS
+     + [[https://medium.com/@mycoralhealth/code-your-own-blockchain-mining-algorithm-in-go-82c6a71aba1f][Medium]] 4 mars 2018 en PoW
+     + [[https://medium.com/@mycoralhealth/code-your-own-blockchain-in-less-than-200-lines-of-go-e296282bcffc][Medium]] 29 janvier 2018 
+  2. Accès à vie
+  3. Mois de juin bonus avec les previews
+  4. Smart Contract
+     + [[https://www.youtube.com/watch?v=3681ZYbDSSk][Dapp]] 2h
+     + 
+  5. Blockchain version JS
+     + [[https://www.youtube.com/watch?v=zVqczFZr124&t=141s][Simply Explained]] - Savjee PoW YT Juillet 2017
+     + [[https://youtu.be/rNvK9natbcM][Devslopes]] PoS YT février 2018
+     + [[https://medium.com/digital-alchemy-holdings/learn-build-a-javascript-blockchain-part-1-ca61c285821e][Medium]] Décembre 2017
+     + [[https://blog.cloudboost.io/build-a-bitcoin-blockchain-in-javascript-part-1-13d8ea2873ec][Medium]] Décembre 2017
+     + [[https://blockgeeks.com/guides/code-a-bitcoin-blockchain-in-javascript/][Blockgeeks]] Mars 2018
+     + [[https://developers.caffeina.com/chiccocoin-learn-what-is-a-blockchain-by-creating-one-in-nodejs-12929a89208b][Medium]] Février 2018
+     + [[https://codingislove.com/simple-blockchain-javascript/][Coding is Love]] Février 2017
+  6. Blockchain privée de Ethereum (geth)
+  7. Accès à tous les slides de la formation
+  8. Accès à tous les audios
+  9. Blockchain version Ruby
+     + [[https://youtu.be/SvfluWtb8a0][THP]] YT Novembre 2017
+     + [[https://youtu.be/3aJI1ABdjQk][Haseeb Qureshi]] YT Octobre 2017
+     + [[http://www.rubyflow.com/p/ccz1ss-build-your-own-blockchain-in-20-lines-of-ruby-blockchainrb-awesome-blockchains][RubyFlow]] Septembre 2017
+     + [[https://www.nopio.com/blog/blockchain-app-ruby/][Nopio]] Mars 2018
+ 10. Blockchain version Swift
+      + [[https://youtu.be/EWl6BLIlGf4][Steve Richardson]] YT Janvier 2018
+      + [[https://learnappmaking.com/blockchain-app-swift-how-to/][LearnAppMaking]] 25 avril 2018
+      + [[https://hackernoon.com/building-blockchain-web-api-using-swift-and-vapor-2daf599c8449][Hackernoon]] Décembre 2017
+      + [[https://medium.com/@azamsharp/blockchain-programming-in-ios-ffaff9b328cc][Medium]] Décembre 2017
+** PoW vs PoS
+   + [[https://cryptocurrencyhub.io/pow-vs-pos-d2d0023205e1][Medium]] February 2018
+** PoW implementation
+   +
+** PoS implementation
+   + [[https://medium.com/@mycoralhealth/code-your-own-proof-of-stake-blockchain-in-go-610cd99aa658][Go]] Medium March 2018
+   + [[https://github.com/sandoche/Proof-of-Stake-Cryptocurrency-generator][Generator]] Github May 2018
+   + [[https://youtu.be/KR0__ivv3YA][Python]] [[https://github.com/folkpark/blockchain][Github]] April 2018
+** Blockchain and JS
+   + [[https://www.slideshare.net/PortiaBurton/the-blockchain-and-javascript][Portia Burton]] 
+** Additional resources
+   + [[http://btcfordummies.ca/]]
+   + Sia: [[https://sia.tech/sia.pdf][Simple Decentralized Storage]] 2014
+   + [[https://filecoin.io/filecoin.pdf][Filecoin]] 2018
+   + [[https://storj.io/][storj]]
+   + [[https://powerledger.io/media/Power-Ledger-Whitepaper-v8.pdf][Power Ledger]] energy from blockchain
+   + [[https://medium.com/@alabs.ken/a-macro-mathematical-model-for-the-observed-value-of-digital-blockchain-networks-23cc8e0dc7ea][Mathematical]]
+   + [[https://docs.ivy-lang.org/bitcoin/language/][Ivy Language]]
+   + [[https://www.youtube.com/watch?v=qOVAbKKSH10][Coding Tech]]
+   + [[https://youtu.be/RRP65VvIgGg][Coding Tech]]
+   + [[https://youtu.be/gAxK6zYrfxI][Coding Tech]] NodeJS
+   + [[https://youtu.be/C4K7S1JYsLs][London Dev Community]]
+   + [[https://youtu.be/rNvK9natbcM][Devslopes]]
+   + 
+** Build your first smart contract
+   1. Download Truffle Ganache [[http://truffleframework.com/ganache/]]
+   2. Github etherwallet [[https://github.com/kvhnuke/etherwallet]]
+   3. Remix solidity: [[https://remix.ethereum.org/#optimize=false&version=soljson-v0.4.24+commit.e67f0147.js][remix solidity]]
+   4. Solidity documentation: [[http://solidity.readthedocs.io/en/v0.4.24/][solidity.readthedocs]] ([[https://media.readthedocs.org/pdf/solidity/develop/solidity.pdf][pdf]])
+   5. ethereumwallet index.html Add Custom Network / Node
+   6. 
+   + [[https://codeburst.io/build-your-first-ethereum-smart-contract-with-solidity-tutorial-94171d6b1c4b][medium]] November 2017
+** Les signatures de Schnorr
+   + [[https://journalducoin.com/bitcoin/une-roadmap-pour-bitcoin-apercu-des-developpements-en-cours/][journalducoin]]
+   + [[https://hackernoon.com/excited-for-schnorr-signatures-a00ee467fc5f][Hackernoon]]
+   + [[https://fr.wikipedia.org/wiki/Protocole_d%2527authentification_de_Schnorr][Protocole d'authentification de Schnorr]]
+   + [[https://en.wikipedia.org/wiki/Schnorr_signature][Schnorr signature]]
+** Blockchain
+   1. [[https://youtu.be/baJYhYsHkLM][Java]]

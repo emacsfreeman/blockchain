@@ -1,0 +1,99 @@
+#+TITLE: Ressources pour les Dapps
+#+AUTHOR: Laurent Garnier
+
+* Bitcoin ([[https://bit.ly/2QgCLRH][Wirex]])
+** Coinmarketcap
+   + [[https://coinmarketcap.com/currencies/bitcoin/]]
+** Whitepaper
+   + [[chrome-extension://oemmndcbldboiebfnladdacbdfmadadm/https://bitcoin.org/bitcoin.pdf][Bitcoin Whitepaper]]
+** GitHub  
+   + [[https://github.com/bitcoin/]]
+* Ethereum ([[https://bit.ly/2QgCLRH][Wirex]])
+** Coinmarketcap
+   + [[https://coinmarketcap.com/currencies/ethereum/]]
+** YouTube
+  + [[https://www.ethereum.org/]]
+  + [[https://github.com/ethereum]]
+  + [[https://coinmarketcap.com/currencies/ethereum/]]
+  + [[https://www.youtube.com/channel/UCyZyNVYEN-54HPYkVVHnRTA/videos?view=0&sort=da&flow=grid][Filip Martinsson]]
+  + [[https://www.youtube.com/channel/UCaWes1eWQ9TbzA695gl_PtA/videos?view=0&sort=da&flow=grid][Will it Scale]]
+  + [[https://youtu.be/-_Qs0XdPpw8][Ethereum Explained]]
+  + [[https://youtu.be/MnSmc7Hto2k]]
+  + [[https://youtu.be/oaDqW_9sNcI][Learn Solidity in 1 Hour]]
+  + [[https://youtu.be/togl4DdYah0][Solidity / Ethereum Smart Contract]]
+  + [[https://youtu.be/y6QeWyewXnY][Solidity Programming Tutorial]]
+  + [[https://youtu.be/XdrScruyYtk][Smart Contracts Programming Tutorial]]
+  + [[https://youtu.be/0phCtYMx2Ac][Building And Deploying Ethereum Smart Contracts With Solidity]]
+  + [[https://youtu.be/kx_TgcWgbkw][Solidity for Dummies]]
+  + [[https://youtu.be/RDd4wd6dpXk][Learn Solidity]]
+
+** GitHub
+   + [[https://github.com/ethereum]]
+   + [[https://github.com/ethereum/wiki/wiki/White-Paper]]
+   + [[https://github.com/ethereum/mist]]
+   + [[https://github.com/SqueezerIO/squeezer]]
+   + [[https://github.com/dapphub/dappsys]]
+   + [[https://github.com/maheshmurthy/ethereum_voting_dapp]]
+   + [[https://github.com/TrustWallet/trust-wallet-ios]]
+   + [[https://github.com/trufflesuite/drizzle]]
+   + [[https://github.com/eshon/conference]]
+   + [[https://github.com/TrustWallet/dapps-browser]]
+* XRP ([[https://bit.ly/2QgCLRH][Wirex]])
+** Coinmarketcap
+   + [[https://coinmarketcap.com/currencies/ripple/]]
+** GitHub  
+   + [[https://github.com/ripple]]
+* Litecoin ([[https://bit.ly/2QgCLRH][Wirex]])
+** Coinmarketcap
+   + [[https://coinmarketcap.com/currencies/litecoin/]]
+** GitHub
+   + [[https://github.com/litecoin-project/litecoin]]
+* EOS
+** Coinmarketcap
+   + [[https://coinmarketcap.com/currencies/eos/]]
+** YouTube
+  + [[https://www.youtube.com/user/jackodwhacko/videos][Jackson Kelley]]
+  + [[https://www.youtube.com/watch?v=gDSDjBYb4bI&list=PLQ3KBWb9pjk3tHf3-Ynw8RjpltZyGqYqE][Filip Martinsson]]
+  + [[https://youtu.be/E3Tx2DseLGE][Building Distributed Apps With EOS.IO Blockchain]]
+  + [[https://youtu.be/J0SYv-GC3R0][EOS Dapp Development Tutorial]]
+** GitHub
+   + [[https://github.com/eosio]]
+   + [[https://github.com/EOSIO/Documentation/blob/master/TechnicalWhitePaper.md]]
+   + [[https://github.com/Dappub/signupeoseos]]
+   + [[https://github.com/PeterHuZQ/EOS-Dapp]]
+   + [[https://github.com/infiniteXLabs/default-template]]
+   + [[https://github.com/EOSIO/eosio-project-boilerplate-simple]]
+   + [[https://github.com/EOSIO/eosio-project-demux-example]]
+   + [[https://github.com/EOSIO/eosio-card-game-repo]]
+   + [[https://github.com/consenlabs/eos-stake-vote-dapp]]
+   + [[https://github.com/eosasia/eos-dapps]]
+* Stellar ([[https://bit.ly/2QgCLRH][Wirex]])
+** Coinmarketcap
+   + [[https://coinmarketcap.com/currencies/stellar/]]
+** GitHub
+  + [[https://github.com/stellar]]
+* Waves ([[https://bit.ly/2QgCLRH][Wirex]])
+** Coinmarketcap
+   + [[https://coinmarketcap.com/currencies/waves/]]
+** GitHub
+   + [[https://github.com/wavesplatform/]]
+* Wollo ([[https://bit.ly/2QgCLRH][Wirex]])
+** Coinmarketcap
+   + [[https://coinmarketcap.com/currencies/wollo/]]
+** GitHub
+   + [[https://github.com/pigzbe/pigzbe-app]]
+
+* Dai ([[https://bit.ly/2QgCLRH][Wirex]])
+** Coinmarketcap
+   + [[https://coinmarketcap.com/currencies/dai/]]
+** GitHub
+   + [[https://github.com/makerdao/]]
+* Nano ([[https://bit.ly/2QgCLRH][Wirex]])
+** Coinmarkertcap
+   + [[https://coinmarketcap.com/currencies/nano/]]
+** GitHub
+   + [[https://github.com/nanocurrency]]
+* Pour coder
+  + [[https://remix.ethereum.org]]
+  + [[https://iot-academy.superblocks.com/]]
+  + [[https://github.com/ethereum/web3.js/]]

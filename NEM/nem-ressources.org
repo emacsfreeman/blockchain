@@ -1,0 +1,10 @@
+#+TITLE: Ressources utiles pour NEM
+#+AUTHOR: Laurent Garnier
+
+* La base
+
+  + [[https://coinmarketcap.com/currencies/nem/][CoinMarketCap]]
+  + [[https://nem.io/]]
+  + [[https://docs.nem.io/en]]
+  + [[https://forum.nem.io/t/any-decent-nem-faucets/20923/4][Forum utile]]
+  + [[https://testnet.help/en/nemfaucet][Faucet]]

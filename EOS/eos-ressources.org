@@ -1,0 +1,8 @@
+#+TITLE: Ressources utiles pour EOS
+#+AUTHOR: Laurent Garnier
+
+* La base
+
+  + [[https://developers.eos.io/]]
+  + [[https://coinmarketcap.com/currencies/eos/][CoinMarketCap]]
+  + [[https://eos.io/]]

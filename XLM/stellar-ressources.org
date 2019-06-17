@@ -1,0 +1,21 @@
+#+TITLE: Ressources pour la crypto Stellar Lumens
+#+AUTHOR: Laurent Garnier
+
+* La base
+
+  + [[https://coinmarketcap.com/currencies/stellar/]]
+  + 
+  
+* SDK
+
+  + [[https://www.stellar.org/developers/horizon/reference/][REST API]]
+  + [[https://www.stellar.org/developers/js-stellar-sdk/reference/][JS]]
+  + [[https://github.com/StellarCN/py-stellar-base][Python]]
+  + [[https://github.com/bloom-solutions/ruby-stellar-sdk][Ruby]]
+  + [[https://github.com/Soneso/stellar-ios-mac-sdk][iOS et macOS]]
+  + [[https://github.com/bnogalm/StellarQtSDK][C++]]
+  
+ * Guides 
+ 
+  + [[https://www.stellar.org/developers/guides/get-started/][Get Started]]
+  + [[https://hub.docker.com/r/stellar/quickstart/][Docker]]

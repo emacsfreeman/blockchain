@@ -1,0 +1,208 @@
+#+TITLE: Bibliothèque Bitcoin avec Python
+#+AUTHOR: Laurent Garnier
+
+* Installations
+  
+  Pour commencer il faut bien entendu installer Python 3 sur sa
+  machine disponible *GRATUITEMENT* à l'adresse :
+  [[https://www.python.org/]]
+
+  Ensuite il faut installer la bibliothèque Bitcoin à l'aide de
+  l'outil d'installation de module nommé pip disponible *GRATUITEMENT*
+  ici [[https://docs.python.org/fr/3/installing/]]
+
+  Taper la commande =pip install bitcoin= ou =pip3 install bitcoin=,
+  la deuxième méthode étant plus explicite mais n'utilisant pas
+  windaube je ne sais pas si elle fonctionne dessus... (voir la
+  documentation du module créé par Vitalik Buterin [[https://pypi.org/project/bitcoin/]])
+  
+* Hello Bitcoin World
+
+  Comme le veut la tradition informatique on va commencer par un Hello
+  World mais version Bitcoin.
+
+  Pour écrire le code il y a 2 options :
+
+  1. Télécharger, installer et utiliser un éditeur de texte sur sa machine comme [[https://atom.io/][Atom]], [[https://www.gnu.org/software/emacs/][GNU
+     Emacs]], [[https://www.sublimetext.com/3][Sublime Text]], [[https://www.vim.org/][Vim]], ou [[https://code.visualstudio.com/][Visual Studio Code]] ou autre
+  2. Ne rien télécharger et se rendre sur repl.it
+
+** Générons une clé privée     
+
+  Dans l'univers du Bitcoin (et des cryptos en général) au
+  commencement était la clé privée.
+
+  En effet, toute la sécurité repose sur le chiffrement (ou
+  cryptographie d'où le crypto) asymétrique ou encore appelé clé
+  publique/clé privée.
+
+  Et cette paire clé publique/clé privée n'est pas symétrique
+  précisément parce que la clé publique est générée à partir de la clé
+  privée d'où l'importance de cette dernière.
+
+  Pour en savoir plus sur ce sujet et sur le fonctionnement des
+  cryptos en général je recommande mon cours sur le sujet avec le
+  coupon promo WELCOME il y a 90% de remise et sa présentation est
+  100% *GRATUITE* en cliquant ici [[http://bit.ly/cdbssr-free]]
+
+  Taper le code suivant :
+
+  #+BEGIN_SRC python
+    from bitcoin import * # signifie qu'on importe toutes les fonctions du module bitcoin
+
+    my_private_key = random_key() # on génère une clé privée
+
+    print(my_private_key) # on affiche la clé privée générée
+  #+END_SRC
+
+  
+** Générons la clé publique
+
+   Maintenant qu'on a généré la clé privée, complétons notre code pour
+   générer la clé publique (qui servira notamment pour générer
+   l'adresse pour pouvoir recevoir des bitcoins).
+
+   #+BEGIN_SRC python
+     from bitcoin import * # on connaît déjà
+
+     my_private_key = random_key() # idem voir le code précédent
+
+     # on utilise la méthode (fonction) permettant de créer la clé publique à partir de la clé privée
+     my_public_key = privtopub(my_private_key)
+
+     print(my_public_key) # on affiche la clé publique
+   #+END_SRC
+* À qui s'adresse-t-on ?
+
+  Maintenant qu'on a nos clés (publique et privée) il serait temps
+  d'avoir une adresse (et même plusieurs en fait).
+
+** Créer une adresse Bitcoin
+
+   Dans la vraie vie on utilise les adresses Bitcoin (le protocole)
+   pour recevoir des bitcoins (la devise).
+
+   Pour ce faire on va utiliser la fonction =pubtoaddr= qui veut
+   simplement dire à partir d'une clé publique on va générer une
+   adresse Bitcoin.
+
+   #+BEGIN_SRC python
+     from bitcoin import * # connu
+
+     my_private_key = random_key() # idem
+
+     my_public_key = privtopub(my_private_key) # idem
+
+     # NOUVEAU : pubtoaddr transforme la clé publique en adresse Bitcoin
+     my_bitcoin_address = pubtoaddr(my_public_key)
+
+     print(my_bitcoin_address) # on affiche le tout
+
+
+   #+END_SRC
+** Créer une adresse multi-signature
+
+   Lorsqu'on utilise un Wallet ou portefeuille numérique pour gérer
+   ses bitcoins (comme avec le wallet [[https://computercode.fr/cest-dans-ton-interet-de-lire-les-lignes-qui-suivent/][Wirex]] que je recommande :
+   [[https://wirexapp.com/r/btho5o7p5u]]), l'application génère une
+   plusieurs paires de clés différentes associées à une unique
+   adresse.
+
+   Une [[https://bitcoin.fr/les-adresses-multi-signatures/][adresse multi-signature]] est une adresse associée à plusieurs
+   clés privées (donc plusieurs clés publiques puisque ces dernières
+   sont générées à partir des premières).
+
+   Pour notre code nous allons créer 3 paires de clés. Ensuite on
+   créera une adresse multi-signature grâce à la fonction
+   =mk_multisig_script= qui comme son nom l'indique va créer/faire
+   (=mk= pour /make/) une multi-signature à partir des 3
+   paires (les signatures). 
+
+   Ensuite on passera le résultat de cette fonction en entrée de la
+   fonction =scriptaddr= qui à partir de ce script va créer une
+   adresse Bitcoin multi-signature.
+
+   Comme souvent, un petit code vaut mieux que de longs discours
+
+   #+BEGIN_SRC python
+     from bitcoin import * # vu quelque part
+
+     my_private_key1 = random_key() # déjà vu aussi
+
+     print('Private Key 1: ' + my_private_key1)
+
+     my_public_key1 = privtopub(my_private_key1)
+
+     print('Public Key 1: ' + my_public_key1)
+
+     my_private_key2 = random_key() # on recommence
+
+     print('Private Key 2: ' + my_private_key2)
+
+     my_public_key2 = privtopub(my_private_key2)
+
+     print('Public Key 2: ' + my_public_key2)
+
+
+     my_private_key3 = random_key() # encore un coup
+
+     print('Private Key 3: ' + my_private_key3)
+
+     my_public_key3 = privtopub(my_private_key3)
+
+     print('Public Key 3: ' + my_public_key3)
+
+     # On donne les 3 clés privées pour la multi-signature
+     my_multi_sig = mk_multisig_script(my_private_key1, my_private_key2, my_private_key3, 2, 3)
+
+     # On donne la multi-signature pour obtenir l'adresse
+     my_multi_address = scriptaddr(my_multi_sig)
+
+     # On affiche le résultat
+     print('Multi-Address: ' + my_multi_address)
+   #+END_SRC
+   
+
+** Observons l'historique des transactions   
+
+   La force du Bitcoin c'est de rappeler qu'avant même l'invention de
+   l'argent il y avait les registres (/ledger/ en anglais) de
+   transactions.
+
+   Ce registre est une [[https://bitcoin.org/bitcoin.pdf][chaîne de blocs]] d'où le nom de /Blockchain/.
+
+   Pour observer l'historique des transaction il suffit d'utiliser la
+   fonction =history= à laquelle on passe une adresse valide en
+   entrée.
+
+   #+BEGIN_SRC python
+     from bitcoin import *
+
+     print(history(a_valid_bitcoin_address))
+   #+END_SRC
+
+   Remplacer =a_valid_bitcoin_address= par une adresse valide de votre
+   choix et si vous n'en avez pas alors vous pouvez en trouver sur cet
+   explorateur de Blockchain : [[https://www.blockchain.com/explorer]]
+
+* Conclusion
+
+  Dans ce tutoriel, largement inspiré de [[https://medium.com/coinmonks/bitcoin-with-python-6595588c2fcf][cette publication sur Medium]]
+  de Nikita Shetty et basée sur le module
+  [[https://pypi.org/project/bitcoin/]] écrit par Vitalik Butterin
+  fondateur de la [[https://coinmarketcap.com/currencies/ethereum/][blockchain Ethereum]], j'ai essayé de vous montrer le
+  plus simplement et directement les concepts de base de la Blockchain
+  Bitcoin en mettant les mains dans le code.
+
+  Pour aller plus loin je recommande mes formations [[http://bit.ly/cdbssr-free][CDBSSR]] (Comment
+  Découvrir la Blockchain Sans Se Ruiner) et [[http://bit.ly/acbp-podia][ACBP]] (Apprendre à Coder 1
+  Blockchain avec Python).
+
+  
+  Pour s'inscrire à ma newsletter il suffit de cliquer ici :
+  [[https://laurentgarnier.podia.com]]
+
+
+   
+   
+   

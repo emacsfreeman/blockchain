@@ -1,0 +1,35 @@
+#+TITLE: Cours disponibles pour les technologies blockchain
+#+AUTHOR: Laurent Garnier
+
+* Class central
+  + [[https://www.classcentral.com/course/coursera-how-entrepreneurs-in-emerging-markets-can-master-the-blockchain-technology-13078?utm_source=fcc_medium&utm_medium=web&utm_campaign=cs_programming_february_2019][How Entrepreneurs in Emerging Markets can master the Blockchain
+    Technology]]
+  + [[https://www.classcentral.com/course/canvas-network-blockchain-decentralization-for-the-information-industries-13206][Blockchain & Decentralization for the Information Industries]]
+  + [[https://www.classcentral.com/course/nptel-blockchain-architecture-and-use-cases-12939][Blockchain Architecture and Use Cases]]
+  + [[https://www.futurelearn.com/courses/blockchain-energy-sector?utm_campaign=Courses+feed&utm_medium=courses-feed&utm_source=courses-feed&utm_source=RakutenMarketing&utm_medium=Affiliate&utm_campaign=3347507:Class+Central&utm_content=10:1&utm_term=USNetwork&ranMID=44015&ranEAID=SAyYsTvLiGQ&ranSiteID=SAyYsTvLiGQ-aamHo9XC4DoMJi4vaLCUyg][Blockchain in the Energy Sector]]
+  + [[https://www.classcentral.com/course/coursera-introduction-to-blockchain-technologies-13377][Introduction to Blockchain Technologies]]
+  + [[https://courses.edx.org/courses/course-v1:HKUx+HKU_09x+2T2019/courseware/f76e31eb67fb4bad9b8b8e3458ec8d68/6cf103facfba49848ebf149717940492/][FinTech Ethics and Risks]]
+  + [[https://www.classcentral.com/course/edx-blockchain-and-fintech-basics-applications-and-limitations-11393][Blockchain and FinTech: Basics, Applications, and Limitations]]
+  + [[https://courses.edx.org/courses/course-v1:BerkeleyX+CS198.2x+1T2019/courseware/75ce5b62151541a4ae86751debb16fa9/8a0389b820b34c8fb0d3b4d17204e2a7/][Blockchain Berkeley]]
+  + [[https://www.classcentral.com/course/edx-blockchain-technology-11428][Blockchain Technology]]
+  + [[https://open.sap.com/courses/leo4][SAP Leonardo - An Introduction to Blockchain]]
+  + [[https://github.com/bitcoinbook/bitcoinbook/blob/develop/ch01.asciidoc][Bitcoinbook]]
+  + [[https://blockchain.berkeley.edu/courses/spring-2018-developers-decal/][Blockchain Berkeley]]
+  + [[https://www.youtube.com/channel/UC5sgoRfoSp3jeX4DEqKLwKg/videos][Blockchain Berkeley]]
+  + [[https://courses.edx.org/courses/course-v1:BerkeleyX+CS198.1x+3T2018/courseware/4463b0413aab48af8c2c43bb9ee05d56/764f120de2f345e1bc852d1a0de2bffa/?child=first][Blockchain and Cryptocurrencies]]
+  + [[https://courses.edx.org/courses/course-v1:HKUx+HKU_08x+1T2030/courseware/f824d15248b748ad9aa2028cb2b7536b/c0e1beb109da428eacb3975b57a1684e/?child=first][Introduction to FinTech]]
+  + [[https://www.classcentral.com/course/coursera-blockchain-basics-11314][Blockchain Basics]]
+  + [[https://www.classcentral.com/course/coursera-----11651][Moscow Institute of Physics]]
+  + [[https://www.classcentral.com/course/coursera-decentralized-applications-dapps-11316][Decentralized Applications]]
+  + [[https://www.classcentral.com/course/coursera-blockchain-platforms-11313][Blockchain Platforms]]
+  + [[https://www.classcentral.com/course/coursera-smart-contracts-11315][Smart Contracts]]
+  + [[https://www.classcentral.com/course/coursera-bitcoin-and-cryptocurrency-technologies-3655][Bitcoin and Cryptocurrency Technologies]]
+  + [[https://www.classcentral.com/course/coursera-blockchain-foundations-and-use-cases-12020][Blockchain: Foundations and Use Cases]]
+  + [[https://www.classcentral.com/course/coursera-la-disrupcion-del-blockchain-10495][La Disrupcion del Blockchain]]
+  + [[https://www.classcentral.com/course/coursera-blockchain-and-business-applications-and-implications-13375][Blockchain and Business: Applications and Implications]]
+  + [[https://www.classcentral.com/course/coursera-blockchain-opportunity-analysis-13374][Blockchain Opportunity Analysis]]
+  + [[https://www.classcentral.com/course/coursera-introduction-to-supply-chain-finance-blockchain-technology-13268][Introduction to Supply Chain Finance & Blockchain Technology]]
+  + [[https://www.classcentral.com/course/coursera-transacting-on-the-blockchain-13376][Transacting on the Blockchain]]
+  + [[https://www.classcentral.com/course/coursera-ibm-blockchain-foundation-for-developers-9860][IBM Blockchain Foundation for Developers]]
+  + [[https://www.classcentral.com/course/coursera-fintech-foundations-and-overview-11193][FinTech Foundations and Overview]]
+ 

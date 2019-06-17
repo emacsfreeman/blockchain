@@ -1,0 +1,200 @@
+#+TITLE: Les compétences recherchées pour devenir développeur Blockchain
+#+AUTHOR: Laurent Garnier
+
+* Co-founder, Full Stack Dev
+  + L'annonce [[https://cryptojobslist.com/jobs/co-founder-full-stack-developer-at-fload-remote][Crypto jobs list]]
+** Les compétences  
+   + [[https://nodejs.org/en/docs/][node.js]] ::
+     1. [[https://www.w3schools.com/nodejs/nodejs_intro.asp][w3schools]],
+     2. [[https://openclassrooms.com/fr/courses/1056721-des-applications-ultra-rapides-avec-node-js][OC]],
+     3. [[https://nodejs.dev/]],
+     4. [[https://www.youtube.com/watch?v=RLtyhwFtXQA&list=PLWKjhJtqVAbmGQoa3vFjeRbRADAOC9drk][freeCodeCampVideos]]
+   + ES6 ::
+     1. [[https://es6.io/]],
+     2. [[https://javascript.info/]],
+     3. [[https://www.sitepoint.com/learn/javascript/learn-modernjs/]],
+     4. [[https://developer.mozilla.org/en-US/docs/Web/javascript][MDN]]
+   + Python ::
+     1. [[https://pythonprogramming.net/]],
+     2. [[https://docs.python.org/3/]], [[chrome-extension://oemmndcbldboiebfnladdacbdfmadadm/https://inforef.be/swi/download/apprendre_python3_5.pdf][Swinnen]],
+     3. [[https://automatetheboringstuff.com/]],
+     4. [[https://learnpython.org/]],
+     5. [[https://learnpythonthehardway.org/python3/]]
+   + SQL :: 
+     1. [[https://www.youtube.com/watch?v=qw--VYLpxG4][PostgreSQL]]
+     2. [[https://www.youtube.com/watch?v=HXV3zeQKqGY][SQL]]
+     3. [[https://www.youtube.com/watch?v=ed8SzALpx1Q][GraphQL]]
+     4. [[https://www.youtube.com/watch?v=aUfPf-clLLs][PostgreSQL]]
+   + [[https://en.wikipedia.org/wiki/Document-oriented_database][Document-oriented-database]] :: 
+     1. [[https://youtu.be/4yqu8YF29cU][MongoDB]]
+     2. [[https://youtu.be/ZS_kXvOeQ5Y][Udemy]]
+     3. [[https://www.youtube.com/watch?v=tiLxUezITUk&list=PLsrZV8shpwjOvzdmEnfMo78lnKq3wv35w][MongoDB and Redis]]
+     4. [[https://database.guide/what-is-a-document-store-database/]]
+     5. [[https://www.youtube.com/watch?v=5co1CuTPtkg][CouchDB]]
+   + Automated testing ::
+     1. [[https://smartbear.com/learn/automated-testing/what-is-automated-testing/][What is Automated Testing?]]
+     2. [[https://www.youtube.com/watch?v=Nd31XiSGJLw][What is Automated Testing?]]
+     3. [[https://youtu.be/_JNeiGbAgL4][Edureka]] (Selenium)
+     4. [[https://youtu.be/T3q6QcCQZQg][Selenium Training]]
+     5. [[https://dzone.com/articles/top-10-automated-software-testing-tools]]
+   + [[https://en.wikipedia.org/wiki/Representational_state_transfer][RESTful Web Services]] ::
+     1. [[https://en.wikipedia.org/wiki/Overview_of_RESTful_API_Description_Languages][Wikipedia]]
+     2. [[https://www.croes.org/gerald/blog/qu-est-ce-que-rest/447/][Gerald's Blog]]
+     3. [[https://www.tutorialspoint.com/restful/]]
+     4. [[https://www.tutorialspoint.com/restful/restful_introduction.htm]]
+     5. [[https://www.youtube.com/watch?v=LooL6_chvN4]]
+     6. [[https://www.youtube.com/watch?v=qVTAB8Z2VmA]]
+     7. [[https://www.youtube.com/watch?v=SLwpqD8n3d0]]
+     8. [[https://www.youtube.com/watch?v=oTzNRv6X51o&list=PLhW3qG5bs-L81R4w0jyLo95JdFHtaxRp4][Playlist]]
+     9. [[https://www.youtube.com/watch?v=0oXYLzuucwE&list=PL55RiY5tL51q4D-B63KBnygU6opNPFk_q][Node.JS]]
+   + [[https://www.youtube.com/watch?v=pKd0Rpw7O48][Node & Express]]
+     1. [[https://www.youtube.com/watch?v=o3ka5fYysBM][freeCodeCamp]]
+     2. [[https://www.youtube.com/watch?v=4T5Gnrmzjak][Python]]
+     3. [[https://www.youtube.com/watch?v=s_ht4AKnWZg][Flask]]
+     4. [[https://www.youtube.com/watch?v=ejJ-2oz4AgI][Django]]
+     5. [[https://www.youtube.com/watch?v=mXgh7W_qNH0&list=PLTgRMOcmRb3MDbpxQ5n2owRR6EqtD5wyM][Django playlist]]
+   + [[https://fr.wikipedia.org/wiki/WebSocket][WebSocket]] ::
+     1. [[https://developer.mozilla.org/fr/docs/Web/API/WebSockets_API][MDN]] (fr)
+     2. [[https://developer.mozilla.org/en-US/docs/Web/API/WebSockets_API][MDN]] (en)
+     3. [[https://pusher.com/websockets]] 
+     4. [[https://html.spec.whatwg.org/multipage/web-sockets.html#network]]
+     5. [[https://www.tutorialspoint.com/html5/html5_websocket.htm]]
+     6. [[https://riptutorial.com/fr/websocket]]
+     7. [[https://www.websocket.org/]]
+   + Cryptocurrency trading :: 
+     1. [[https://www.elcurrency.com/]]
+     2. [[https://crypto-currency.trading/]]
+     3. [[https://www.coinstaker.com/cryptocurrency-trading/]]
+     4. [[https://www.nextcoinmarket.com/]]
+     5. [[https://coinexx.com/]] 
+     6. [[https://cryptocurrencyfacts.com/how-to-trade-cryptocurrency-for-beginners/][CryptoCurrencyFacts]]
+     7. [[https://cryptocurrenciestrading.com/]]
+     8. [[https://cryptotrader.org/]]
+     9. [[https://coinsutra.com/best-cryptocurrency-trading-site/]]
+   + Crypto en français ::
+     1. [[https://bitcoin.fr/faq/]]
+     2. [[https://bitcoin.fr/ressources/]]
+     3. [[https://cryptoast.fr/]]
+   + Git ::
+     1. [[https://www.youtube.com/watch?v=COxGHDYV4aY][Intro to GitHub Pages]]
+     2. [[https://www.youtube.com/watch?v=x0EYpi38Yp4][GitHub Basics Tutorial]]
+     3. [[https://www.youtube.com/watch?v=vR-y_2zWrIE&list=PLWKjhJtqVAbkFiqHnNaxpOPhh9tSWMXIF][Git & GitHub]]
+     4. [[https://youtu.be/bKuE-afbRLU][How to Clone a GitHub Repository for Beginners]]
+     5. [[https://www.youtube.com/watch?v=oJmnLmtH6-4][Using Git with WordPress]]
+     6. [[https://www.youtube.com/watch?v=URcMBXjIr24][Tutoriel git : intégration continue avec GitLab]]
+     7. [[https://www.youtube.com/watch?v=aQl-IKLm_9A][GitLab - 1. Présentation : différentes fonctions et principes]]
+     8. [[https://www.youtube.com/watch?v=03wb9FvO4Ak][GitLab University: Basics of Git & GitLab]]
+     9. [[https://www.youtube.com/watch?v=enMumwvLAug][Introduction to GitLab Workflow]]
+    10. [[https://www.youtube.com/watch?v=cERdbQ-GgOo][Create Your First GitLab Pages Site]]
+    11. [[https://git-scm.com/docs]]
+    12. [[https://git-scm.com/book/en/v2]]
+    13. [[https://git-scm.com/book/fr/v2]]
+    14. [[https://git-scm.com/book/ru/v2]]
+    15. [[https://git-scm.com/book/ko/v2]]
+    16. [[https://www.youtube.com/watch?v=7vOgKcG5mw8][Introduction to Bitbucket]]
+    17. [[https://www.youtube.com/watch?v=RNLOrLu8cgU][Les bases de Bitbucket]]
+    18. [[https://www.youtube.com/watch?v=v-B1YwWJte0][What is BitBucket?]]
+   + Heroku ::
+	       1. [[https://www.heroku.com/]]
+               2. [[https://www.lebigdata.fr/heroku-definition]]
+               3. [[https://en.wikipedia.org/wiki/Heroku]]
+               4. [[https://riptutorial.com/fr/heroku/example/26719/deploying-with-git]]
+               5. [[https://devcenter.heroku.com/categories/reference]]
+   + Slack ::
+	      1. [[https://api.slack.com/]]
+              2. [[https://slack.com/intl/fr-fr]]
+              3. [[https://slack.dev/node-slack-sdk/web-api]]
+              4. [[https://api.slack.com/bot-users]]
+              5. [[https://www.fullstackpython.com/blog/build-first-slack-bot-python.html][How2BuildUr1stSlackBotWithPython]]
+              6. [[https://zapier.com/blog/how-to-build-chat-bot/]]
+              7. [[https://sabe.io/tutorials/learn-how-to-build-slack-bot-node-js]]
+   + Trello ::
+	       1. [[https://developers.trello.com/]]
+               2. [[https://help.trello.com/article/756-trello-api-documentation]]
+               3. [[https://trello.com/]]
+               4. [[https://www.npmjs.com/package/trello]]
+               5. [[https://developers.trello.com/docs/api-introduction]]
+	       6. [[http://www.trello.org/help.html]]
+               7. [[https://www.programmableweb.com/api/trello]] 
+               8. [[https://pypi.org/project/trello/]]
+   + Zeplin :: 
+               1. [[https://zeplin.io/]]
+	       2. [[https://www.youtube.com/playlist?list=PLrZ2zKOtC_-D-bhPpTzvUO4eUaDejBp1p][What is Zeplin?]]
+               3. [[https://learnux.io/course/zeplin]]
+               4. [[https://blog.prototypr.io/zeplin-the-developer-side-c8bd1ada921]]
+               5. [[https://www.producthunt.com/alternatives/zeplin-1-0]]
+               6. [[https://www.linkedin.com/learning/zeplin-for-ux-design]]
+               
+* Content Writer / Researcher
+  + L'annonce [[https://cryptojobslist.com/jobs/content-writer-researcher-at-emx-remote][Crypto jobs list]]
+** Les compétences
+   + Copywriting
+   + Connaissances des produits d'investissements
+   + Communication
+   + SEO
+* React Frontend Developer
+  + L'annonce [[https://cryptojobslist.com/jobs/react-frontend-developer-at-terminal-new-york-etc][Crypto jobs list]]
+** Les compétences
+   + React ::
+	      1. [[https://reactjs.org/]]
+              2. [[http://reactjs.fr/react/]]
+              3. [[https://www.youtube.com/watch?v=DLX62G4lc44][freeCodeCamp]]
+              4. [[https://www.youtube.com/watch?v=Ke90Tje7VS0][React for Beginners]]
+   + Apollo ::
+               1. [[https://www.apollographql.com/docs/react/][Apollo Docs]]
+               2. [[https://reactjsexample.com/use-apollo-client-as-react-hooks/][reactjsexample.com]]
+               3. [[https://reactgo.com/graphql-react-apollo-client/]]
+               4. [[https://www.youtube.com/watch?v=RCKkWjBuyfw][Level 1 Apollo Client with React]]
+               5. [[https://www.youtube.com/watch?v=8Pyr82Qbjow][GraphQL]]
+               6. [[https://www.youtube.com/watch?v=kXH2dbnHYA0][Coding Tech]]
+               7. [[https://www.youtube.com/watch?v=uXPIryLyIm0][Honeypot Talks]]
+               8. [[https://www.youtube.com/watch?v=Wi9WoJeDaeA&list=PLLnpHn493BHE3dfAnJLuGAoU-m5eg__KR][Level 1 Apollo]]
+               9. [[https://www.youtube.com/watch?v=5evJqX5i1zE][Getting Started With React And GraphQL]]
+   + Material UI 3 ::
+		      1. [[https://material-ui.com/getting-started/installation/]]
+                      2. [[https://youtu.be/fox4Y-_Q9hE][Learn React & Material UI]]
+                      3. [[https://www.youtube.com/watch?v=xm4LX5fJKZ8&list=PLcCp4mjO-z98WAu4sd0eVha1g-NMfzHZk][React / Material UI]] 
+                      4. [[https://www.youtube.com/watch?v=PWadEeOuv5o][Getting Started With Material UI]]
+                      5. [[https://www.youtube.com/watch?v=cHXPsSq6sf4][React Project 2 Day 2]]
+                      6. [[https://material.io/design/color/the-color-system.html][material.io]]
+		      7. [[https://v0.material-ui.com/#/]]	
+   + Redux :: 
+	      1. [[https://redux.js.org/]]
+              2. [[https://www.youtube.com/watch?v=93p3LxR9xfM][Traversy Media]]
+              3. [[https://www.youtube.com/watch?v=HbozNzOAMfk][Devoxx FR]]
+              4. [[https://www.youtube.com/watch?v=OSSpVLpuVWA][Learn Coding Tutorials]]
+              5. [[https://www.youtube.com/watch?v=3sjMRS1gJys][RallyCoding]]
+              6. [[https://www.youtube.com/watch?v=KLCnTjB0w_o][Paul Hanna]]
+              7. [[https://www.youtube.com/watch?v=oD3miHerQbY][freeCodeCamp]]
+   + SSR, Code-splitting, Lerna :: 
+	    1. [[https://github.com/gourmetjs/gourmet-ssr]]
+            2. [[https://webpack.js.org/guides/code-splitting/]]
+            3. [[https://reactjs.org/docs/code-splitting.html][Code-splitting React]]
+            4. [[https://www.smooth-code.com/articles/code-splitting-react-loadable-components][Smooth-code]]
+            5. [[https://developers.google.com/web/fundamentals/performance/optimizing-javascript/code-splitting/][Google Developers]]
+            6. [[https://survivejs.com/webpack/building/code-splitting/][Survivejs]]
+            7. [[https://parceljs.org/code_splitting.html][parceljs.org]]
+            8. [[http://www.gwtproject.org/doc/latest/DevGuideCodeSplitting.html]]
+            9. [[https://github.com/lerna/lerna]]
+           10. [[https://www.npmjs.com/package/lerna]]
+           11. [[https://github.com/lerna]]
+* Blockchain Developer
+  + L'annonce [[https://cryptojobslist.com/jobs/blockchain-developer-at-project-hydro-hydro-remote][Crypto jobs list]]
+** Les compétences  
+   + Solidity ::
+		 1. [[https://solidity.readthedocs.io/en/v0.5.8/introduction-to-smart-contracts.html][solidity v0.5.8]]
+                 2. [[https://solidity.readthedocs.io/en/v0.5.8/solidity-in-depth.html][solidity in depth]]
+                 3. [[https://github.com/ethereum/solidity]]
+                 4. [[https://blockgeeks.com/guides/solidity/]]
+   + Web3.js ::
+             1. [[https://github.com/ethereum/web3.js/]]
+             2. [[https://web3js.readthedocs.io/en/1.0/]]
+             3. [[https://www.youtube.com/watch?v=t3wM5903ty0&list=PLS5SEs8ZftgXlCGXNfzKdq7nGBcIaVOdN][DApp University]]
+             4. [[https://www.youtube.com/watch?v=hcTPjpPvas8][DesignCourse]]
+   + React.js ::
+		 1. [[https://reactjs.org/]]
+                 2. [[https://en.wikipedia.org/wiki/React_(JavaScript_library)]]
+                 3. [[http://reactjs.fr/javascript/]]
+                 4. [[https://openclassrooms.com/fr/courses/4664381-realisez-une-application-web-avec-react-js][OC]]
+		 5. [[https://www.codecademy.com/learn/react-101]] 
+

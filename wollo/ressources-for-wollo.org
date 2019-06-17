@@ -1,0 +1,7 @@
+  #+TITLE: Ressources utiles pour Wollo
+  #+AUTHOR: Laurent Garnier
+  
+  * La base
+  
+    + [[https://github.com/pigzbe/pigzbe-app]]
+    + [[https://coinmarketcap.com/currencies/wollo/]]

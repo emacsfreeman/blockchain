@@ -1,0 +1,225 @@
+#+TITLE: Analyse technique du 8 juin 2019 par Sally Ho
+#+AUTHOR: Laurent Garnier
+
+
+#+BEGIN_CENTER
+[[./ethusd.png]]
+#+END_CENTER
+
+* Bitcoin
+
+  *Bitcoin (BTC/USD)* a gagné du terrain au début de la séance
+  *asiatique* d’aujourd’hui, la paire étant retournée plus haut dans la
+  zone des *8083.27* et a été soutenue autour du niveau de *7975.01*. Le
+  plus haut d'hier en intraday a été établi lors de la séance
+  *nord-américaine* alors que le *BTC/USD* s'échangeait autour de la
+  zone des *8134.29*, juste autour du *retracement* de *38.2%* de la
+  fourchette des *6600.00 à 9090.00*. En outre, le sommet
+  intra-journalier de la veille était à peu près correct, autour du
+  *retracement* de *50%* de la fourchette *8834.54 - 7427.00*. La paire
+  continue de s'échanger en dessous de la barre des *50 bars MA* (toutes
+  les 4 heures), ce qui indique actuellement environ *8168.43*. Lors de
+  la séance *nord-américaine* d’hier, quelques indices techniques sont
+  apparus lorsque la paire a dérivé du *support technique* autour du
+  *retracement* de *38.2%* de la plage *7450.00 - 8134.28*.
+
+  Les Bulls *BTC/USD* tablent sur deux niveaux de hausse où des
+  profits pourraient être réalisés, notamment les zones *8296.86* et
+  *8502.36*, qui sont tous deux liés à la baisse à partir de
+  *8834.00*. Parmi les autres objectifs de prix à la hausse, citons
+  *8258/8454/8697*, zones de *résistance technique* liées à la gamme
+  *9090.00 - 7427.00*. En dessous des prix courants, le *support
+  technique* s’observe autour des zones *7792/7711/7611*. Des *offres*
+  supplémentaires sont attendues autour de la zone des *7558*. Les
+  chartistes notent que la *MA* à *50 bars* (horaire) se situe juste
+  au-dessus de la *MA* à *100 bars* (horaire).
+
+  L'activité des prix est la plus proche des *50 bars MA* (toutes les 4
+  heures) à *8168.43* et des *50 bars MA* (toutes les heures) à *784847*.
+
+
+  Un *support technique* est attendu vers *7343.17/7187.64/6881.34*,
+  avec des *arrêts* prévus ci-dessous.
+
+
+  Une *résistance technique* est attendue autour de
+  *8230.98/8566.38/8761.96*, les arrêts étant prévus ci-dessus.
+
+
+  Sur le graphique à *4 heures*, *SlowK* est *haussier* au dessus de *SlowD*
+  tandis que *MACD* est *haussier* au dessus de *MACDAverage*.
+
+
+  Sur le graphique de *60 minutes*, *SlowK* est *haussier* au-dessus de
+  *SlowD*, tandis que *MACD* est *baissier* à la baisse de *MACDAverage*.
+
+
+* Ethereum
+
+  *Ethereum (ETH/USD)* s’est apprécié au début de la séance *asiatique*
+  d’aujourd’hui, alors que la paire gagnait du terrain pour s’attaquer
+  à la zone des *252.59*, juste autour du *retracement* de *50%* du
+  mouvement de *281.89 à 222.99*. Hier, au cours de la séance
+  *nord-américaine* d'hier, la paire s'est échangée à un niveau aussi
+  élevé que *254.40*, juste en dessous du *retracement* de *23.6%* du
+  mouvement de *144.15 à 288.77* et également en dessous de la *MA* à
+  *50 bars* (à 4 heures) temps. Lors de la séance européenne d’hier,
+  certaines *offres* ont émergé autour de la zone des *246.23*, soit un
+  *retracement* de *23.6%* de la fourchette de *288.77 à 233.00*.
+
+  Lors de la séance *asiatique* d’hier, certaines *offres ont émergé*
+  autour du *retracement* de *76.4%* de la plage *231.12 - 288.77*, ce qui
+  signifie probablement que les domaines de *résistance technique*
+  supérieurs à l’activité actuelle du marché sont pertinents,
+  notamment *259.95/266.75/ 275.16*. Les techniciens s’intéressent
+  également aux *objectifs de hausse des prix* liés à la hausse à partir
+  de *222.88*. Ces zones *255.83/263.60/273.22* incluses sont parmi
+  les domaines de résistance technique probable. De plus, la zone
+  *272.56* reste un niveau clé, représentant le *retracement* de *23.6%* du
+  mouvement de *894.00 à 80.60*. Les chartistes notent que la *MA* à
+  *50 bars* vient de dépasser la *MA* à *100 bars*, un signal
+  potentiellement *haussier*.
+
+  L'activité des prix est la plus proche des *50 bars MA* (toutes les 4
+  heures) à *254.34* et des *50 bars MA* (toutes les heures) à *246.77*.
+
+
+  Un *support technique* est attendu vers *246.16/235.31/231.12*, avec
+  des *arrêts* prévus en dessous.
+
+  La *résistance technique* est attendue vers *258.80/266.75/275.16*
+  avec les *arrêts* prévus ci-dessus.
+
+
+  Sur le graphique de *4 heures*, *SlowK* est *baissier* sous *SlowD*,
+  tandis que *MACD* est *haussier* au-dessus de *MACDAverage*.
+
+
+  Sur le graphique de *60 minutes*, *SlowK* est *haussier* au-dessus
+  de *SlowD*, tandis que *MACD* est *baissier* à la baisse de *MACDAverage*.
+
+
+  Vous pouvez partager cette publication !
+
+* Source
+
+  Ceci est une traduction de l'article publié sur le [[https://cryptodaily.co.uk/2019/06/sally-ho-technical-analysis-8-june][CryptoDaily]]
+  accessible en cliquant [[https://cryptodaily.co.uk/2019/06/sally-ho-technical-analysis-8-june][ici]].
+
+* Mise en garde
+
+  *Attention* : le *trading est très dangereux*, et en particulier
+  pour les cryptos, ce que je partage avec vous ne représente en aucun
+  cas des conseils d'investissement mais uniquement des explications
+  de ce que j'ai compris en fonction de mes recherches. N'invesitssez
+  dans les cryptos que ce que vous pouvez vous permettre de perdre
+  (vos excédents, *pas* vos sources de revenus primaires !).
+
+* Glossaire
+
+  + [[https://www.investopedia.com/terms/r/retracement.asp][retracement]] :: on appelle [[https://www.abcbourse.com/apprendre/11_fibonnaci.html][retracement]] l'amplitude de correction ou
+       de rebond que l'on peut calculer dans une tendance principale.
+       Le retracement est défini en pourcentage.
+
+       Pour déterminer à quel niveau pourrait baisser un indice ou une
+       valeur dans le cadre d'une tendance haussière, on applique à
+       l'amplitude de la hausse de la tendance principale (différence
+       entre le sommet et le bas de la tendance) un ou plusieurs
+       ratios.
+
+       On effectue également cette opération dans le cadre d'une
+       tendance baissière.
+
+       Les analystes utilisent les ratios de Fibonacci (38.2%, 50% ou
+       61.8%) ou ceux de Gann (25%, 37.5%, 50%, 62.5% ou 75%).
+
+       Prenons un exemple. Disons que le stock d'une entreprise X
+       augmente de 20% durant une journée. Quiconque a déjà regardé la
+       courbe d'une tendance sait qu'il est peu probable que le prix
+       augmente continuellement au cours de la journée. Les périodes
+       au cours desquelles le cours des actions diminue, malgré la
+       tendance générale à la hausse de la journée sont appelés les
+       retracements.
+
+       Pour plus de détails sur les retracements vous pouvez consulter :
+    + [[https://www.zonebourse.com/formation/espace_pedagogique/Les-retracements-et-speedlines-118/][zonebourse]]
+    + [[https://www.edubourse.com/guide-bourse/retracement-fibonacci-gann.php][edubourse]]
+    + [[https://cryptoast.fr/trading-fibonacci/][cryptoast]]
+  + intraday :: l'intraday correspond aux opérations financières sur
+                une journée. Les opérations d'intraday sont peu
+                rentables néanmoins leur prolifération peut accroître
+                la valeur d'un portefeuille. L'intraday est apprécié
+                des traders actifs qui souhaitent faire du profit à
+                court terme et suivent assidûment les séances
+                boursières chaque jour. En effet, les moindres
+                variations peuvent avoir un effet positif ou négatif
+                sur un portefeuille, il convient donc de consacrer du
+                temps à ces opérations pour réaliser des gains
+                appréciables. 
+
+		Pour aller plus loin :
+    + [[https://www.investopedia.com/terms/i/intraday.asp][investopedia]]
+    + [[https://www.bitdegree.org/tutorials/day-trading-cryptocurrency/][BitDegree]]
+    + [[https://www.daytrading.com/cryptocurrency][daytrading]]
+  + résistance (technique) :: la résistance est la droite que l'on
+       peut tracer en prenant les sommets les plus haut d'une certaine
+       période indiquant une tendance homogène "longue". En clair c'est
+       une droite qui est tangente à la courbe par valeurs supérieures
+       (au-dessus de la courbe). 
+  
+       Pour plus de détails :
+        + [[https://www.centralcharts.com/fr/gm/1-apprendre/7-analyse-technique/25-debutant/389-resistances-et-supports-en-trading][centralcharts]]
+        + [[http://formation-en-bourse.com/techniques-trading/supports-et-resistances-en-bourse/][formation-en-bourse]]
+        + [[https://www.meilleursbrokers.com/techniques-de-trading/supports-et-resistances.html][meilleursbrokers]]
+  + support (technique) :: le support est la droite que l'on peut
+       tracer en joignant les valeurs les plus basses au cours d'une
+       certaine période indiquant une tendance homogène "longue". En
+       clair c'est une droit tangente à la courbe par valeurs
+       inférieures (au-dessous de la courbe).
+
+       Pour plus de détails :
+       + [[https://www.meilleursbrokers.com/techniques-de-trading/supports-et-resistances.html][meilleursbrokers]]
+       + [[https://www.centralcharts.com/fr/gm/1-apprendre/7-analyse-technique/25-debutant/389-resistances-et-supports-en-trading][centralcharts]]
+       + [[https://www.dailyfx.com/francais/actualite_forex_trading/ressources_forex/2011/05/20/analyse_technique_etape_4_support_et_resistance.html][dailyfx]]
+  + slowK and slowD :: on parle de [[https://www.fidelity.com/learning-center/trading-investing/technical-analysis/technical-indicator-guide/slow-stochastic][Slow Stochastic]] pour oscillateur
+       stochastique. L'oscillateur stochasituqe lent est un indicateur
+       de moment qui indique l'emplacement de la fermeture par rapport
+       à la plage haute-basse sur un nombre défini de
+       périodes. L’indicateur peut aller de 0 à 100.
+
+       Pour aller plus loin :
+       + [[https://tradingsim.com/blog/slow-stochastics/][TradingSim]]
+       + [[https://www.fidelity.com/learning-center/trading-investing/technical-analysis/technical-indicator-guide/slow-stochastic][fidelity]]
+       + [[https://www.investopedia.com/terms/s/stochasticoscillator.asp][investopedia]]
+  + [[https://www.investopedia.com/terms/m/macd.asp][MACD]] :: pour Moving Average Convergence Divergence, ou convergence
+       et divergence des moyennes mobiles. Les moyennes mobiles sont
+       simplement des moyennes sur une période de temps.
+
+       Exemple : on prend comme échelle 3 jours et on commence le
+       mercredi. Du coup on va calculer la moyenne entre lundi, mardi
+       et mercredi. Ensuite le jeudi on calculera la moyenne entre
+       mardi, mercredi et jeudi. Chaque fois on calcule la moyenne des
+       3 derniers jours. Et comme on avance dans le temps alors la
+       moyenne "bouge" et donc on parle de moyenne mobile.
+
+       Pour plus de détails :
+       + [[https://fr.wikipedia.org/wiki/MACD][Wikipédia]]
+       + [[https://www.abcbourse.com/apprendre/11_lecon3.html][abcbourse]]
+       + [[https://www.andlil.com/definition-de-la-macd-125078.html][andlil]]
+  
+
+
+* Partage
+
+  Voilà c'est tout pour aujourd'hui.
+
+  Comme d'habitude si tu as aimé ce que tu as lu :
+  + laisse un commentaire
+  + partage l'article
+  + partage le lien pour la newsletter
+    [[https://laurentgarnier.podia.com]]
+* Nouveautés dans mes formations
+
+  + [[http://bit.ly/cdbssr-podia][CDBSSR]] (Comment Découvrir la Blockchain Sans Se Ruiner) :: avec de
+       nouvelles vidéos et des bonus supplémentaires
+  

@@ -1,0 +1,208 @@
+#+TITLE: Défi 30 Jours Sans YouTube #3 : 5 Raisons pour lesquelles Python est populaire dans les projets Bitcoin en 2019
+#+AUTHOR: Laurent Garnier
+
+* Le Blog
+
+  L'article plus complet sur le blog [[https://computercode.fr/defi-30-jours-sans-youtube-3-5-raisons-pour-lesquelles-python-est-populaire-dans-les-projets-bitcoin-en-2019/][https://computercode.fr]]
+  
+* Source
+
+  + [[https://rubikscode.net/2019/05/20/5-reasons-why-python-is-popular-in-bitcoin-projects-in-2019/?subscribe=success#blog_subscription-5][rubikscode.net]]
+
+* Intro
+
+  Bitcoin est un des crypto-monnaies pionnière dans le monde. Elle a
+  changé le paysage financier à travers le globe. Une énorme majorité
+  de personnes qui font de la finance et du trading montrent un
+  intérêt assidu pour [[https://btcgeek.com/how-to-invest-in-bitcoin/][comment investir dans Bitcoin]]. Cette croissance
+  substantielle dans les activités financières conduisent les
+  développeurs de logiciels à créer de plus en plus de crypto-monnaies
+  et blockchain reliées à des outils logiciels.
+
+  Une énorme demande pour le [[https://mobilunity.com/blog/hire-python-developer/][développement Python Web]] a émmergé sur le
+  marché à cause des fonctionnalités et des capacités puissantes du
+  langage Python pour le développement professionnel de projets liés
+  au Bitcoin. Le moteur majeur de cette demande accrue est l'expansion
+  du marché Bitcoin, qui était juste sous la barre des 1 milliard de
+  dollars en 2013 pour atteindre plus de 237 milliards de dollars au
+  quatrième trimestre de 2017. La taille du marché actuel des
+  crypto-monnaies est d'environ 140,6 milliards en avril 2019. Le
+  marché est censé s'étendre continûment et significativement dans les
+  années à venir.
+
+* Python dans la programmation Blockchain
+
+  La programmation en blockchain implique de nombreux algorithmes
+  scientifiques, mathématiques et arithmétiques utilisés pour traiter
+  les fonctions d'ingénierie de haut niveau. Le langage Python possède
+  de nombreuses bibliothèques de fonctions puissantes, des modules
+  intégrés et des outils python tiers qui en font l'un des langages de
+  programmation les plus appréciés pour la technologie Bitcoin.
+
+  La bibliothèque Bitcoin Python nouvellement introduite rend la
+  programmation 100 fois plus rapide pour les signatures et les
+  vérifications de transactions. Il existe de nombreuses
+  fonctionnalités et capacités de cette nouvelle bibliothèque, capable
+  de prendre en charge de nombreux types de fonctions complexes
+  individuellement.
+
+  Python avec Bitcoin est largement utilisé pour les outils Python de
+  l'algorithme de minage de Bitcoin, qui résolvent des problèmes
+  d'ingénierie très complexes. Selon les informations de la [[https://pypi.org/][Python
+  Software Foundation]], il y aurait plus de 177 515 outils logiciels
+  tiers disponibles sur le marché au cours du premier trimestre
+  de 2019. Plus de 2 000 outils logiciels s'ajoutent à ce nombre
+  chaque mois. Plus de 1,2 million de versions ont déjà été lancées
+  par plus de 324 utilisateurs sur le site Web de PyPi uniquement.
+
+  L’apprentissage automatique, l’analyse des données et l’intelligence
+  artificielle sont d’autres domaines majeurs du langage Python qui en
+  font l’une des plateformes les plus populaires de la programmation
+  de logiciels Python Bitcoin Miner. Les capacités de traitement
+  d'image, de texte et multimédia du langage Python sont par
+  excellence. La gestion efficace des bases de données complexes,
+  l’automatisation, le scraping Web et la mise en réseau par Python en
+  font le logiciel idéal pour les programmes d’exploitation de
+  bitcoins.
+
+* Avantages de l'utilisation de Python dans le développement de code source Bitcoin  
+
+  Le marché des bitcoins attire des millions de personnes qui
+  investissent dans cette crypto-monnaie potentielle. La valeur de
+  Bitcoin a grimpé en flèche ces dernières années, ce qui a amené les
+  ingénieurs à développer du code source Bitcoin pour l’exploitation
+  de bitcoin. C’est une très bonne idée pour les développeurs de
+  logiciels de développer un programme d’extraction de bitcoins
+  permettant de gagner des bitcoins gratuits.
+
+  Les [[https://bitcoin.stackexchange.com/questions/32192/why-is-python-popular-in-bitcoin-projects][principaux avantages]] de l’utilisation de Python pour le
+  développement de logiciels bitcoin sont les suivants.
+
+  + Il offre une programmation simple grâce à une large gamme de
+    bibliothèques et de modules intégrés
+  + Offre un grand nombre d'outils logiciels tiers
+  + La courbe d'apprentissage est relativement petite
+  + C’est une plate-forme open source, libre d’utilisation
+  + Propulsé par une énorme communauté de soutien
+  + Règles de codage simplifiées
+  + La syntaxe du code est très facile à comprendre et à apporter des
+    modifications
+  + Le fichier Python peut être exécuté non compilé, ainsi que le
+    fichier compilé et exécutable
+  + Développement plus rapide des projets
+  + La structure de données de Python est très conviviale
+  + Python offre une grande rapidité par rapport aux autres langages
+    de programmation
+  + Réduire les coûts et les délais de développement logiciel
+  + Améliore le délai de mise sur le marché pour maintenir l'avantage
+    concurrentiel sur le marché
+  + C'est une plateforme de développement logiciel dynamique
+  + C'est un langage de haut niveau orienté objet
+  + Il peut être facilement étendu à C ou C ++
+  + Puissantes capacités d'intégration en douceur
+
+* Quel est le meilleur logiciel d'exploitation minière Bitcoin Python ?
+
+  L'industrie des mineurs de Bitcoin se développe très rapidement. Il
+  existe de nombreux excellents outils logiciels Bitcoin Miner sur le
+  marché. Tous ces outils ont leurs avantages et leurs
+  inconvénients. Le logiciel de mineur de bitcoin le plus populaire
+  développé avec le langage Python est Poclbm-mod.
+
+  Les principales caractéristiques de [[https://en.bitcoin.it/wiki/Poclbm-mod][Poclbm-mod]] sont énumérées
+  ci-dessous :
+
+  + C'est un logiciel open source développé pour les plateformes
+    OpenCL
+  + C'est une plate-forme plus rapide et plus efficace
+  + Utilise GetWork, qui est un protocole efficace pour l'exploration
+  + Prend en charge les interfaces CLI et GUI
+  + Convient pour Linux, Windows et Mac
+  + Possède des capacités et une vitesse très puissantes
+
+* 5 bonnes raisons d'utiliser Python pour des projets d'exploitation minière Bitcoin
+
+  Le langage Python possède de nombreuses fonctionnalités et
+  fonctionnalités qui en font l’un des langages les plus populaires au
+  monde. Les [[https://elearningindustry.com/advantages-of-python-programming-languages][principales raisons]] d'utiliser python pour l'extraction
+  de bitcoins sont mentionnées ci-dessous.
+
+1. Bibliothèques puissantes  
+
+   Python dispose d'une bibliothèque très puissante et très étendue de
+   fonctions liées à [[https://www.techwalls.com/everything-you-need-know-machine-learning/][l'apprentissage automatique]], à l'analyse de
+   données, aux fonctions mathématiques, aux fonctions d'ingénierie, à
+   la gestion de bases de données, au réseau, etc. Toutes ces
+   fonctions sont largement nécessaires au développement des
+   algorithmes logiciels de la technologie blockchain. L’exploitation
+   de Bitcoin a besoin de puissantes fonctions d’arithmétique et
+   d’ingénierie pour vérifier la transaction complexe sur la
+   technologie blockchain. Toutes ces fonctions peuvent facilement
+   être développées à l’aide de nombreuses bibliothèques du langage
+   Python.
+
+2. Grandes pool d'outils tiers
+
+   La prise en charge d’outils logiciels tiers augmente très
+   rapidement. Plus de deux mille nouveaux outils apparaissent sur le
+   marché chaque mois. Le nombre actuel d'outils logiciels tiers a
+   dépassé les 178 000. Cet énorme support des outils tiers facilite
+   la programmation minière Bitcoin en Python.
+
+3. Parfait pour la technologie Blockchain
+
+   Si vous souhaitez développer une API compatible Bitcoin, Python est
+   fait pour vous. Vous pouvez créer des API robustes à différentes
+   fins en utilisant des modules intégrés et des bibliothèques
+   standard. Vous pouvez également ajouter une API de graphique de
+   transaction bitcoin et bien plus encore. Il existe de nombreux
+   outils d'analyse de données, [[https://magazine.startus.cc/how-machine-learning-is-changing-the-major-industries/][d'apprentissage automatique]] et
+   d'arithmétique qui peuvent être intégrés pour en faire un outil
+   logiciel parfait pour la technologie blockchain.
+
+4. Technologie Open Source
+
+   Le marché actuel est devenu tellement concurrentiel. Il est très
+   difficile de maintenir un avantage concurrentiel et des marges de
+   profit saines. L'utilisation de logiciels à code source ouvert aide
+   les entrepreneurs à faire face à ce défi. Python est une
+   plate-forme open-source que vous pouvez utiliser gratuitement. Vous
+   pouvez également avoir accès au code source pour personnaliser la
+   programmation selon vos besoins.
+
+5. Moins de code pour des algorithmes complexes
+
+   L’un des aspects les plus intéressants du langage Python du point
+   de vue du développeur est que Python nécessite un code moindre pour
+   la programmation d’algorithmes complexes. Dans d'autres langages
+   comme le langage C, vous aurez besoin de presque deux lignes de
+   codes pour développer un algorithme donné. Les développeurs aiment
+   donc beaucoup cette fonctionnalité du langage Python.
+
+* Un dernier pour la route
+
+  Les principales raisons de la popularité du langage Python dans le
+  développement de logiciels miniers Bitcoin sont le large éventail de
+  fonctions couvrant de nombreux aspects liés à l’ingénierie et à la
+  science des données. La simplicité, le code réduit, les outils
+  tiers, la syntaxe simple et la programmation dynamique sont d’autres
+  caractéristiques majeures qui font de Python le premier langage
+  préféré du marché en 2019.
+
+* L'auteure originelle de l'article en anglais
+
+  Kateryna Boiko est responsable marketing chez Mobilunity,
+  fournisseur d'équipes de développement dédiées, avec 7 ans
+  d'expérience pratique dans le marketing numérique. Kateryna a réussi
+  à travailler avec divers secteurs et marchés et souhaite désormais
+  partager des cas uniques avec le monde entier et donner des conseils
+  sur des sujets liés à l'analyse Web et à l'optimisation des moteurs
+  de recherche.
+
+
+
+
+
+
+
+

@@ -1,0 +1,6 @@
+  #+TITLE: Ressources pour DAI (donc sur la blockchain Maker DAO)
+  #+AUTHOR: Laurent Garnier
+  
+  * La base
+    + [[https://github.com/makerdao/]]
+    
